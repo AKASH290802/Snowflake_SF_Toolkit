@@ -1,0 +1,16 @@
+# Core Streamlit App Requirements
+streamlit>=1.57.0
+pandas>=2.0.0
+
+# Salesforce Requirements
+simple-salesforce>=1.12.0
+salesforce-bulk>=2.2.0
+requests>=2.31.0
+
+# Snowflake Requirements (Optional - for Snowflake tab)
+snowflake-connector-python[pandas]>=3.0.0
+cryptography>=41.0.0
+openpyxl>=3.1.0
+
+# Additional
+python-dateutil>=2.8.2

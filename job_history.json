@@ -1,0 +1,222 @@
+[
+  {
+    "ts": "2026-09-18 12:52:47",
+    "op": "SF\u2192Snowflake",
+    "sub_op": "",
+    "obj": "SSZ_NEXTGEN_DB.DM_STG_QA_PRISM_DELTA.SF_WOD_2__WARRANTY_CODE__C",
+    "success": 124368,
+    "failed": 0,
+    "elapsed": 214.159850358963,
+    "api": "Bulk API 2.0",
+    "source": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Business_Units__c, WOD_2__Description__c, WOD_2__English_Value__c, WOD_2__Fault_Location_Level__c, WOD_2__Job_Type__c, WOD_2__Lang_Id__c, WOD_2__Parent_Warranty_Code__c, WOD_2__Selectable__c, WOD_2__ShortDescription__c, WOD_2__Standard_Labor_Hour__c, WOD_2__Standard_Labor_Minutes__c, WOD_2__Warranty_Code__c, WOD_2__Fault_Location_Level_Path__c, WOD_2__Job_Code_Hierarchy_Description__c, WOD_2__Job_Code_Hierarchy__c, Code_Value__c, Dealer_PDI__c, Rollup_Component__c, Status__c, Active_From__c, Active_Until__c, Ampnet_Code__c, Asset__c, Campaign_SRT__c, Claim_Type__c, Code_key__c, Comments__c, Component_Description__c, Corporate_PDI__c, Correction_Code__c, Description_ES__c, Domicile_Code__c, Domicile_Country_Formula__c, Expression__c, Inclusion_Exclusion__c, Is_Serialized__c, Level__c, MDM_Country_Code__c, Name_ES__c, Notes__c, One_Stop_Supplier_Product_Type__c, PRSM_Demonstrator__c, Parent_Warranty_Code_Formula__c, Position_Code__c, Power_Type__c, PreventiveMaintenance_SRT__c, Product_Type__c, Product__c, Rolldown_Parent__c, Rollup_Description__c, SEAG_Code__c, Sub_Business_Unit__c, Supplier_Name__c, Supplier__c, VocationCodeRecordType__c, Vocation_Code_External__c, Vocation_Description__c, Warranty_Code_External__c, Warranty_Code_Message_Association__c, Warranty_Code_Message__c, Warranty_Code_Type__c, Message__c, SEAG_Description__c, Translated_Description__c, Warranty_Code_Info__c, PRSM_Reason_Code__c FROM WOD_2__Warranty_Code__c"
+  },
+  {
+    "ts": "2026-09-18 12:57:04",
+    "op": "Update",
+    "sub_op": "",
+    "obj": "WOD_2__FaultCode_Mapper__c",
+    "success": 40771,
+    "failed": 0,
+    "elapsed": 96.01395058631897,
+    "api": "bulk_v2",
+    "source": ""
+  },
+  {
+    "ts": "2026-09-18 12:58:42",
+    "op": "Insert",
+    "sub_op": "",
+    "obj": "WOD_2__FaultCode_Mapper__c",
+    "success": 1461,
+    "failed": 0,
+    "elapsed": 19.433802366256714,
+    "api": "bulk_v2",
+    "source": ""
+  },
+  {
+    "ts": "2026-09-18 13:01:15",
+    "op": "SF\u2192Snowflake",
+    "sub_op": "",
+    "obj": "SSZ_NEXTGEN_DB.DM_STG_QA_PRISM_DELTA.SF_WOD_2__FAULTCODE_MAPPER__C",
+    "success": 1004554,
+    "failed": 0,
+    "elapsed": 101.9982922077179,
+    "api": "Bulk API 2.0",
+    "source": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Code__c, WOD_2__Fault_Code__c, WOD_2__Fault_Location__c, WOD_2__Group__c, WOD_2__Product__c, WOD_2__Status__c, WOD_2__Warranty_Product__c, Supplier__c, Associated_Code_Description__c, Code_Description__c, Component_Description__c, Description__c, Effective_From_Date__c, Effective_To_Date__c, Fault_Code_Type__c, Inclusion_Exclusion__c, Part_Category__c, Product_Description__c, System_Group__c, Active_From__c, Active_Until__c, Associated_Code_Info__c, Code_Info__c, SEAG_Code__c, System_Group_Description__c FROM WOD_2__FaultCode_Mapper__c"
+  },
+  {
+    "ts": "2026-09-18 13:22:45",
+    "op": "SF\u2192Snowflake",
+    "sub_op": "",
+    "obj": "SSZ_NEXTGEN_DB.DM_STG_QA_PRISM_DELTA.SF_WOD_2__POLICY_DEFINITION__C",
+    "success": 39416,
+    "failed": 0,
+    "elapsed": 175.76438856124878,
+    "api": "Bulk API 2.0",
+    "source": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Active_From__c, WOD_2__Active_Until__c, WOD_2__Business_Units__c, WOD_2__Category_To_Apply_Degradation__c, WOD_2__Coverage_Based_On__c, WOD_2__Days_Covered_From__c, WOD_2__Days_Covered__c, WOD_2__Default_Policy_Definition__c, WOD_2__Description__c, WOD_2__Exclusion__c, WOD_2__Expression__c, WOD_2__Extended_Policy_Cost__c, WOD_2__Inclusion__c, WOD_2__Is_Policy_Optional__c, WOD_2__Months_Covered_From__c, WOD_2__Months_Covered__c, WOD_2__Payment_Definition__c, WOD_2__Policy_Filter_Condition__c, WOD_2__Pricebook_Type__c, WOD_2__Priority__c, WOD_2__Status__c, WOD_2__Sub_Type__c, WOD_2__Terms_Condition__c, WOD_2__Transfer_Fee__c, WOD_2__Transferable_Month__c, WOD_2__Transferable__c, WOD_2__Type__c, PRSM_DataBookCode__c, PRSM_Policy_Name__c, ProductType__c, ResponsibilityCodeType__c, ResponsibilityCode__c, ClaimDeductible__c, Coverage_Source__c, Description_ES__c, External_Id__c, Has_No_Coverage__c, Hours__c, Internal_Comments__c, MaxClaimAmount__c, PRSM_Base_Price__c, PRSM_Coverage_Type__c, PRSM_DB_Effective_Date__c, PRSM_Data_Book_Code__c, PRSM_Dealer_Net__c, PRSM_Deferred_Period__c, PRSM_Duration_Type__c, PRSM_Duration_Value__c, PRSM_End_Duration_Type__c, PRSM_End_Duration_Value__c, PRSM_Extended_Coverage_Option_Type__c, PRSM_Order_Received_Date__c, PRSM_Price_Effective_Date__c, PRSM_Service_Product_Type__c, PRSM_Start_Duration_Type__c, PRSM_Start_Duration_Value__c, PRSM_Suggested_Retail__c, PRSM_Unit_Type__c, PRSM_Usage_UOM_2__c, PRSM_Usage_Units_2__c, PolicyCode__c, PolicyFormula__c, PolicyOffsetDays__c, PolicyOptionType__c, Responsibility_Code_Type__c, Responsible_BU__c, Series__c, System_Group__c, Throughput_kWh__c, Upper_Threshold_Amount__c, UsageType__c, UsageValue__c, Claim_Expression__c, Distance_in_kms__c, PRSM_End_Duration__c, PRSM_One_Stop_Supplier_Product_Type__c, PRSM_Start_Duration__c, System_Group_Name_formula__c, PRSM_Responsible_Sub_BU__c, Aged_Blueprint__c, Towing_RoadSide__c, PRSM_Sub_BU_From_RC__c, PRSM_Deductible_Type__c, Towing_Roadside_Cutoff__c, PRSM_Claim_Deductible__c, PRSM_Cool_Off_Period_Days__c, PRSM_RR_Type__c FROM WOD_2__Policy_Definition__c"
+  },
+  {
+    "ts": "2026-09-18 14:45:34",
+    "op": "SF\u2192Snowflake",
+    "sub_op": "",
+    "obj": "SSZ_NEXTGEN_DB.DM_STG_QA_PRISM_DELTA.SF_WOD_2__FAULTCODE_MAPPER__C",
+    "success": 1004555,
+    "failed": 0,
+    "elapsed": 242.17730474472046,
+    "api": "Bulk API 2.0",
+    "source": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Code__c, WOD_2__Fault_Code__c, WOD_2__Fault_Location__c, WOD_2__Group__c, WOD_2__Product__c, WOD_2__Status__c, WOD_2__Warranty_Product__c, Supplier__c, Associated_Code_Description__c, Code_Description__c, Component_Description__c, Description__c, Effective_From_Date__c, Effective_To_Date__c, Fault_Code_Type__c, Inclusion_Exclusion__c, Part_Category__c, Product_Description__c, System_Group__c, Active_From__c, Active_Until__c, Associated_Code_Info__c, Code_Info__c, SEAG_Code__c, System_Group_Description__c FROM WOD_2__FaultCode_Mapper__c"
+  },
+  {
+    "ts": "2026-09-18 14:57:21",
+    "op": "SF\u2192Snowflake",
+    "sub_op": "",
+    "obj": "SSZ_NEXTGEN_DB.DM_STG_QA_PRISM_DELTA.SF_PRSM_ACCOUNTASSOCIATION__C",
+    "success": 448,
+    "failed": 0,
+    "elapsed": 22.71294355392456,
+    "api": "Bulk API 2.0",
+    "source": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, Customer_Account__c, Dealer_Account__c, PRSM_Customer_Account_Number__c, PRSM_Dealer_Account_Number__c FROM PRSM_AccountAssociation__c"
+  },
+  {
+    "ts": "2026-09-18 15:02:29",
+    "op": "SF\u2192Snowflake",
+    "sub_op": "",
+    "obj": "SSZ_NEXTGEN_DB.DM_STG_QA_PRISM_DELTA.SF_PRSM_ACCOUNTASSOCIATION__C",
+    "success": 449,
+    "failed": 0,
+    "elapsed": 20.098193883895874,
+    "api": "Bulk API 2.0",
+    "source": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, Customer_Account__c, Dealer_Account__c, PRSM_Customer_Account_Number__c, PRSM_Dealer_Account_Number__c FROM PRSM_AccountAssociation__c"
+  },
+  {
+    "ts": "2026-09-18 15:38:18",
+    "op": "SF\u2192Snowflake",
+    "sub_op": "",
+    "obj": "SSZ_NEXTGEN_DB.DM_STG_QA_PRISM_DELTA.SF_WOD_2__TECHNICIAN__C",
+    "success": 37697,
+    "failed": 0,
+    "elapsed": 98.4718554019928,
+    "api": "Bulk API 2.0",
+    "source": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Customer_Account__c, WOD_2__End_Date__c, WOD_2__Location_Code__c, WOD_2__Start_Date__c, WOD_2__Technician_ID__c, Active__c, ExtID_Integration__c, External_Id__c FROM WOD_2__Technician__c"
+  },
+  {
+    "ts": "2026-09-18 16:03:57",
+    "op": "SF\u2192Snowflake",
+    "sub_op": "",
+    "obj": "SSZ_NEXTGEN_DB.DM_STG_QA_PRISM_DELTA.SF_WOD_2__RATES_DETAILS__C",
+    "success": 39924,
+    "failed": 0,
+    "elapsed": 29.76984739303589,
+    "api": "Bulk API 2.0",
+    "source": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Active_From__c, WOD_2__Active_Until__c, WOD_2__Approver__c, WOD_2__Dealer__c, WOD_2__Freight_Rate__c, WOD_2__Handling_Rate__c, WOD_2__LaborRate__c, WOD_2__Labor_Rate__c, WOD_2__Landing_Cost_Max_Cap_Amount__c, WOD_2__Landing_Rate_Percentage__c, WOD_2__Max_Cap_Amount__c, WOD_2__Meals_Rate__c, WOD_2__Miscellaneous_Rate__c, WOD_2__Priority__c, WOD_2__Rate_Type__c, WOD_2__Standard_Rate__c, WOD_2__Status__c, WOD_2__TravelByDistanceRate__c, WOD_2__TravelByHoursRate__c, WOD_2__Travel_By_Distance_Rate__c, WOD_2__Travel_By_Hours_Rate__c, WOD_2__Rate_Sub_Type__c, twodsrm__Handling_Max_Cap__c, twodsrm__Handling_Rate__c, twodsrm__Landed_Max_Cap__c, twodsrm__Landed_Rate__c, twodsrm__Supplier__c, Active__c, Customer__c, External_Id__c, Labor_Type__c, Notes__c, PRSM_Total_Labor_Rate__c, Premium_Rate__c, Status__c, Travel_Distance_Rate__c, DVCM_Category__c, PRSM_Labor_Rate__c  from WOD_2__Rates_Details__c"
+  },
+  {
+    "ts": "2026-09-18 17:07:49",
+    "op": "SF\u2192Snowflake",
+    "sub_op": "",
+    "obj": "SSZ_NEXTGEN_DB.DM_STG_QA_PRISM_DELTA.SF_WOD_2__RATES_DETAILS__C",
+    "success": 40069,
+    "failed": 0,
+    "elapsed": 63.27129507064819,
+    "api": "Bulk API 2.0",
+    "source": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Active_From__c, WOD_2__Active_Until__c, WOD_2__Approver__c, WOD_2__Dealer__c, WOD_2__Freight_Rate__c, WOD_2__Handling_Rate__c, WOD_2__LaborRate__c, WOD_2__Labor_Rate__c, WOD_2__Landing_Cost_Max_Cap_Amount__c, WOD_2__Landing_Rate_Percentage__c, WOD_2__Max_Cap_Amount__c, WOD_2__Meals_Rate__c, WOD_2__Miscellaneous_Rate__c, WOD_2__Priority__c, WOD_2__Rate_Type__c, WOD_2__Standard_Rate__c, WOD_2__Status__c, WOD_2__TravelByDistanceRate__c, WOD_2__TravelByHoursRate__c, WOD_2__Travel_By_Distance_Rate__c, WOD_2__Travel_By_Hours_Rate__c, WOD_2__Rate_Sub_Type__c, twodsrm__Handling_Max_Cap__c, twodsrm__Handling_Rate__c, twodsrm__Landed_Max_Cap__c, twodsrm__Landed_Rate__c, twodsrm__Supplier__c, Active__c, Customer__c, External_Id__c, Labor_Type__c, Notes__c, PRSM_Total_Labor_Rate__c, Premium_Rate__c, Status__c, Travel_Distance_Rate__c, DVCM_Category__c, PRSM_Labor_Rate__c  from WOD_2__Rates_Details__c"
+  },
+  {
+    "ts": "2026-09-22 10:25:18",
+    "op": "SF\u2192Snowflake",
+    "sub_op": "",
+    "obj": "SSZ_NEXTGEN_DB.DM_STG_QA_PRISM_DELTA.SF_CONTRACTA",
+    "success": 8442,
+    "failed": 0,
+    "elapsed": 22.270124435424805,
+    "api": "Bulk API 2.0",
+    "source": "select Id, AccountId, CurrencyIsoCode, Pricebook2Id, OwnerExpirationNotice, StartDate, EndDate, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, BillingLatitude, BillingLongitude, BillingGeocodeAccuracy, ShippingStreet, ShippingCity, ShippingState, ShippingPostalCode, ShippingCountry, ShippingLatitude, ShippingLongitude, ShippingGeocodeAccuracy, ContractTerm, OwnerId, Status, CompanySignedId, CompanySignedDate, CustomerSignedId, CustomerSignedTitle, CustomerSignedDate, SpecialTerms, ActivatedById, ActivatedDate, StatusCode, Description, RecordTypeId, Name, IsDeleted, ContractNumber, LastApprovedDate, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, PRSM_Agreement_Type__c, PRSM_Claim_Entry_Type__c, PRSM_Days_from_Factory_Release__c, PRSM_Excluded_claim_types__c, PRSM_External_Id__c, PRSM_Registered_Distance__c, PRSM_Customer_Account__c, PRSM_Active1__c, PRSM_Agreement_Term__c, PRSM_Auto_Registration__c, PRSM_Ordering_Customer_Account_Formula__c, PRSM_Ordering_Dealer__c, PRSM_Registered_Customer_Account__c, PRSM_Registered_Dealer_Code__c, PRSM_Registered_Dealer__c, PRSM__c, PRSM_Ordering_Dealer_Code_Formula__c, PRSM_Registered_Customer_Account_Number__c from Contract"
+  },
+  {
+    "ts": "2026-09-22 12:08:56",
+    "op": "Update",
+    "sub_op": "",
+    "obj": "WOD_2__Policy_Definition__c",
+    "success": 18,
+    "failed": 0,
+    "elapsed": 7.972339153289795,
+    "api": "bulk_v2",
+    "source": ""
+  },
+  {
+    "ts": "2026-09-22 12:11:19",
+    "op": "Update",
+    "sub_op": "",
+    "obj": "WOD_2__Policy_Definition__c",
+    "success": 18,
+    "failed": 0,
+    "elapsed": 7.804323673248291,
+    "api": "bulk_v2",
+    "source": ""
+  },
+  {
+    "ts": "2026-09-22 12:35:49",
+    "op": "SF\u2192Snowflake",
+    "sub_op": "",
+    "obj": "SSZ_NEXTGEN_DB.DM_STG_QA_PRISM_DELTA.SF_WOD_2__WAREHOUSE__C",
+    "success": 1828,
+    "failed": 0,
+    "elapsed": 15.624408721923828,
+    "api": "Bulk API 2.0",
+    "source": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Address_Line_1__c, WOD_2__Address_Line_2__c, WOD_2__Address_Line_3__c, WOD_2__Address_Line_4__c, WOD_2__Business_Units__c, WOD_2__City__c, WOD_2__Country__c, WOD_2__County__c, WOD_2__Dealer_Account__c, WOD_2__Email__c, WOD_2__Fax__c, WOD_2__IsInactive__c, WOD_2__Phone__c, WOD_2__State_Province__c, WOD_2__Zip_Code__c, External_Id__c FROM WOD_2__Warehouse__c"
+  },
+  {
+    "ts": "2026-09-22 12:43:47",
+    "op": "SF\u2192Snowflake",
+    "sub_op": "",
+    "obj": "SSZ_NEXTGEN_DB.DM_STG_QA_PRISM_DELTA.SF_PRSM_DTR_CERTIFICATION__C",
+    "success": 49361,
+    "failed": 0,
+    "elapsed": 31.1701922416687,
+    "api": "Bulk API 2.0",
+    "source": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, Acquisition_Type__c, Certification_Date__c, Current_Odometer_Reading__c, External_Id__c, GVWR__c, Latest_pending_certificate__c, New_Active_Certification__c, New_DPF_Serial_Number_2__c, New_DPF_Serial_Number__c, OMP_Participation_Trade__c, PRSM_CertifyingSalesOutlet_Technician__c, Reman_DPF_Comments__c, Reman_DPF_Installation_Date__c, Reman_DPF_Installed__c, Reman_DPF_RO_Number__c, Reman_Dealer_Location__c, Removed_DPF_Serial_Number_2__c, Removed_DPF_Serial_Number__c, Service_Comments__c, Service_Completion_Date__c, Service_Dealer_Location__c, Service_RO_Number__c, Service_Requirement_Completed__c, Source__c, Status__c, Submitting_Location__c, Technician__c, Unit_of_Measure__c, VIN__c, Active__c, DPF_Installed_by_Dealer_User__c, Expiry_Date__c, Product_Make__c, Model__c, Product_Base_Model__c FROM PRSM_DTR_Certification__c"
+  },
+  {
+    "ts": "2026-09-22 12:55:37",
+    "op": "Update",
+    "sub_op": "",
+    "obj": "PRSM_DTR_Certification__c ",
+    "success": 515,
+    "failed": 0,
+    "elapsed": 8.625702381134033,
+    "api": "bulk_v2",
+    "source": ""
+  },
+  {
+    "ts": "2026-09-22 12:57:55",
+    "op": "Insert",
+    "sub_op": "",
+    "obj": "PRSM_DTR_Certification__c",
+    "success": 1612,
+    "failed": 0,
+    "elapsed": 19.489728212356567,
+    "api": "bulk_v2",
+    "source": ""
+  },
+  {
+    "ts": "2026-09-22 14:41:10",
+    "op": "Update",
+    "sub_op": "",
+    "obj": "WOD_2__FaultCode_Mapper__c",
+    "success": 323094,
+    "failed": 0,
+    "elapsed": 85.89158010482788,
+    "api": "bulk_v2",
+    "source": ""
+  },
+  {
+    "ts": "2026-09-22 14:43:00",
+    "op": "Insert",
+    "sub_op": "",
+    "obj": "WOD_2__FaultCode_Mapper__c",
+    "success": 323094,
+    "failed": 0,
+    "elapsed": 71.88691711425781,
+    "api": "bulk_v2",
+    "source": ""
+  }
+]

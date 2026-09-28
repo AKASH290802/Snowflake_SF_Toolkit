@@ -1,0 +1,124 @@
+{
+  "LEDGER_ASP": {
+    "source_table": "STG_GL_LEDGER_ASP_UPDATE",
+    "target_table": "SF_PRSM_FINANCIAL_CODE_MATRIX_C",
+    "sf_object": "PRSM_Financial_Code_Matrix__c",
+    "lookup_ref_tables_map": {
+      "Product2": "SF_PRODUCT2",
+      "RecordType": "SF_RECORDTYPE",
+      "WOD_2__Warranty_Code__c": "SF_WOD_2_WARRANTY_CODE_C"
+    },
+    "where_filter": "",
+    "key_field": "ID",
+    "column_mapping": {
+      "ID": "Id",
+      "PRSM_SERVICE_PRODUCT_TYPE__C": "PRSM_Service_Product_Type__c",
+      "NAME": "Name",
+      "SUB_BUSINESS_UNIT__C": "Sub_Business_Unit__c",
+      "PRSM_RESPONSIBILITY_CODE__C": "PRSM_Responsibility_Code__c",
+      "PRSM_DEALER_DOMICILE_COUNTRY__C": "PRSM_Dealer_Domicile_Country__c",
+      "PRODUCT_MAKE__C": "Product_Make__c",
+      "PRSM_CONTRACT_CATEGORY__C": "PRSM_Contract_Category__c",
+      "COMPANY_CODE__C": "Company_Code__c",
+      "PRSM_ACCOUNT_CODE__C": "PRSM_Account_Code__c",
+      "PRSM_MATERIAL_ID__C": "PRSM_Material_Id__c",
+      "ACCOUNT_TYPE__C": "Account_Type__c",
+      "RECORDTYPEID": "RecordTypeId",
+      "EXTERNAL_ID__C": "External_Id__c"
+    }
+  },
+  "STG_GL_LEDGER_WARRANTY_CODES_UPDATE": {
+    "source_table": "STG_GL_LEDGER_WARRANTY_CODES_UPDATE",
+    "target_table": "SF_WOD_2__WARRANTY_CODE__C",
+    "sf_object": "WOD_2__Warranty_Code__c",
+    "lookup_ref_tables_map": {
+      "RecordType": "SF_RECORDTYPE"
+    },
+    "where_filter": "",
+    "key_field": "ID",
+    "column_mapping": {
+      "ID": "Id",
+      "NAME": "Name",
+      "WOD_2__SHORTDESCRIPTION__C": "WOD_2__ShortDescription__c",
+      "WARRANTY_CODE_TYPE__C": "Warranty_Code_Type__c",
+      "STATUS__C": "Status__c",
+      "RECORDTYPEID": "RecordTypeId",
+      "WARRANTY_CODE_EXTERNAL__C": "Warranty_Code_External__c"
+    }
+  },
+  "DVCM_CATEGORY_HANDLING": {
+    "source_table": "STG_DVCM_CATEGORY_HANDLING_UPDATE",
+    "target_table": "SF_WOD_2__WARRANTY_CODE__C",
+    "sf_object": "WOD_2__Warranty_Code__c",
+    "lookup_ref_tables_map": {
+      "RecordType": "SF_RECORDTYPE"
+    },
+    "where_filter": "",
+    "key_field": "ID",
+    "column_mapping": {
+      "ID": "Id",
+      "NAME": "Name",
+      "ACTIVE_FROM__C": "Active_From__c",
+      "ACTIVE_UNTIL__C": "Active_Until__c",
+      "STATUS__C": "Status__c",
+      "RECORDTYPEID": "RecordTypeId",
+      "WARRANTY_CODE_EXTERNAL__C": "Warranty_Code_External__c"
+    }
+  },
+  "DVCM_PART_CATEGORY": {
+    "source_table": "STG_DVCM_PART_CATEGORY_UPDATE",
+    "target_table": "SF_TVNT__MODIFIER__C",
+    "sf_object": "tvnt__Modifier__c",
+    "lookup_ref_tables_map": {},
+    "where_filter": "",
+    "key_field": "ID",
+    "column_mapping": {
+      "ID": "Id",
+      "NAME": "Name",
+      "TVNT__ACTIVE_FROM__C": "tvnt__Active_From__c",
+      "TVNT__ACTIVE_UNTIL__C": "tvnt__Active_Until__c",
+      "TVNT__TYPE__C": "tvnt__Type__c",
+      "TVNT__VALUE__C": "tvnt__Value__c",
+      "TVNT__MODIFIER_ENTITY__C": "tvnt__Modifier_Entity__c",
+      "EXTERNAL_ID": "Modifier_Ext_ID__c"
+    }
+  },
+  "SUPPLIER_AGGREMENT_PROCESING_REASON_CODE": {
+    "source_table": "STG_SUPPLIER_AGGREMENT_PROCESING_REASON_CODE_UPDATE",
+    "target_table": "SF_WOD_2__WARRANTY_CODE__C",
+    "sf_object": "WOD_2__Warranty_Code__c",
+    "lookup_ref_tables_map": {
+      "RecordType": "SF_RECORDTYPE"
+    },
+    "where_filter": "",
+    "key_field": "ID",
+    "column_mapping": {
+      "ID": "Id",
+      "NAME": "Name",
+      "WOD_2__SHORTDESCRIPTION__C": "WOD_2__ShortDescription__c",
+      "DESCRIPTION_ES__C": "Description_ES__c",
+      "STATUS__C": "Status__c",
+      "WARRANTY_CODE_TYPE__C": "Warranty_Code_Type__c",
+      "RECORDTYPEID": "RecordTypeId",
+      "WARRANTY_CODE_EXTERNAL__C": "Warranty_Code_External__c"
+    }
+  },
+  "AMPNET_RESULT_CODE": {
+    "source_table": "STG_AMPNET_RESULT_CODE_UPDATE",
+    "target_table": "SF_WOD_2__WARRANTY_CODE__C",
+    "sf_object": "WOD_2__Warranty_Code__c",
+    "lookup_ref_tables_map": {
+      "RecordType": "SF_RECORDTYPE"
+    },
+    "where_filter": "",
+    "key_field": "ID",
+    "column_mapping": {
+      "ID": "Id",
+      "NAME": "Name",
+      "PRSM_REASON_CODE__C": "PRSM_Reason_Code__c",
+      "WOD_2__SHORTDESCRIPTION__C": "WOD_2__ShortDescription__c",
+      "STATUS__C": "Status__c",
+      "RECORDTYPEID": "RecordTypeId"
+    }
+  }
+}

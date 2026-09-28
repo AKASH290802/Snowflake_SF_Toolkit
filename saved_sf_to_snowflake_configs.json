@@ -1,0 +1,338 @@
+{
+  "SF_RECORDTYPE": {
+    "query": "SELECT Id, Name, DeveloperName, NamespacePrefix, Description, BusinessProcessId, SobjectType, IsActive, CreatedById, CreatedDate, LastModifiedById, LastModifiedDate, SystemModstamp FROM RecordType ",
+    "table_name": "SF_RECORDTYPE",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-04-16T18:56:19.299912"
+  },
+  "SF_WOD_2__WARRANTY_CODE__C": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Business_Units__c, WOD_2__Description__c, WOD_2__English_Value__c, WOD_2__Fault_Location_Level__c, WOD_2__Job_Type__c, WOD_2__Lang_Id__c, WOD_2__Parent_Warranty_Code__c, WOD_2__Selectable__c, WOD_2__ShortDescription__c, WOD_2__Standard_Labor_Hour__c, WOD_2__Standard_Labor_Minutes__c, WOD_2__Warranty_Code__c, WOD_2__Fault_Location_Level_Path__c, WOD_2__Job_Code_Hierarchy_Description__c, WOD_2__Job_Code_Hierarchy__c, Code_Value__c, Dealer_PDI__c, Rollup_Component__c, Status__c, Active_From__c, Active_Until__c, Ampnet_Code__c, Asset__c, Campaign_SRT__c, Claim_Type__c, Code_key__c, Comments__c, Component_Description__c, Corporate_PDI__c, Correction_Code__c, Description_ES__c, Domicile_Code__c, Domicile_Country_Formula__c, Expression__c, Inclusion_Exclusion__c, Is_Serialized__c, Level__c, MDM_Country_Code__c, Name_ES__c, Notes__c, One_Stop_Supplier_Product_Type__c, PRSM_Demonstrator__c, Parent_Warranty_Code_Formula__c, Position_Code__c, Power_Type__c, PreventiveMaintenance_SRT__c, Product_Type__c, Product__c, Rolldown_Parent__c, Rollup_Description__c, SEAG_Code__c, Sub_Business_Unit__c, Supplier_Name__c, Supplier__c, VocationCodeRecordType__c, Vocation_Code_External__c, Vocation_Description__c, Warranty_Code_External__c, Warranty_Code_Message_Association__c, Warranty_Code_Message__c, Warranty_Code_Type__c, Message__c, SEAG_Description__c, Translated_Description__c, Warranty_Code_Info__c, PRSM_Reason_Code__c FROM WOD_2__Warranty_Code__c ",
+    "table_name": "SF_WOD_2__WARRANTY_CODE__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-07-29T13:19:35.569336"
+  },
+  "SF_CLAIM": {
+    "query": "Select Id, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, WOD_2__Caused_By__c, WOD_2__Claim_Record_Type__c, WOD_2__Claim_Status__c, WOD_2__Claim_Type__c, WOD_2__Fault_Found__c, WOD_2__Goodwill_Reason__c, WOD_2__Host_NonHost__c, WOD_2__Is_Repair_Completed__c, WOD_2__Labor_Units__c, WOD_2__Policy_Type__c, WOD_2__Pre_Authorization_Reason__c, WOD_2__Pre_Authorization_Status__c, WOD_2__Reopen_Reason__c, WOD_2__Account__c, WOD_2__Appeal_By_Date__c, WOD_2__Appeal_Count__c, WOD_2__Appeal_Description__c, WOD_2__Applicable_Coverage_Ids__c, WOD_2__Applicable_Policy__c, WOD_2__Approval_Comments__c, WOD_2__Approved_Rejected_Date__c, WOD_2__Asset__c, WOD_2__Auto_apply__c, WOD_2__Batch_Log__c, WOD_2__BusinessCategory__c, WOD_2__Campaign_Members__c, WOD_2__CasualPart_Comments__c, WOD_2__CausalPartNumber_P2__c, WOD_2__Causal_Part_Description__c, WOD_2__Causal_Part_Number__c, WOD_2__Causal_Part_Serial_Number__c, WOD_2__Chatter_Comments__c, WOD_2__Claim_Auto_Number__c, WOD_2__Claim_Parts_Pending_Approval__c, WOD_2__Claim_Pre_Appeal_Status__c, WOD_2__Claim_Repair_Index__c, WOD_2__Claim_Template_Payment_Definition__c, WOD_2__Comments__c, WOD_2__Date_Of_Failure__c, WOD_2__Date_Of_Purchase__c, WOD_2__Date_Of_Repair__c, WOD_2__Degradation_Modifier__c, WOD_2__Delay_Reason__c, WOD_2__Description__c, WOD_2__Duplicate_Claim__c, WOD_2__End_Time__c, WOD_2__External_ID__c, WOD_2__External_Reference_Id__c, WOD_2__Fault_Code_Comment__c, WOD_2__Fault_Code_Name__c, WOD_2__Fault_Code__c, WOD_2__Fault_Location_Name__c, WOD_2__Fault_Location__c, WOD_2__Field_Modification_Edited__c, WOD_2__Handling_Upper_Limit_Cost__c, WOD_2__In_Approval_Process__c, WOD_2__Internal_Comments__c, WOD_2__Inventory__c, WOD_2__Invoice_Number__c, WOD_2__Is_Claim_Financial_Created__c, WOD_2__Is_Claim_Financial_Edited__c, WOD_2__Is_Multi_Repair__c, WOD_2__Is_OTC__c, WOD_2__Is_Pre_Authorization_Required__c, WOD_2__Is_Template__c, WOD_2__Labor_Upper_Limit_Cost__c, WOD_2__Labor_Upper_Limt_Unit__c, WOD_2__Landing_Upper_Limit_Cost__c, WOD_2__ModelNumber_P2__c, WOD_2__Model_Number__c, WOD_2__Other_Cost_Upper_Limit_Cost__c, WOD_2__Overall_Upper_Limit_Cost__c, WOD_2__Override_Part_Payment_Condition__c, WOD_2__Override_Policy__c, WOD_2__PartNumber_P2__c, WOD_2__Part_Description__c, WOD_2__Part_Serial_Number__c, WOD_2__Part_Upper_Limit_Cost__c, WOD_2__Part__c, WOD_2__Pre_Authorization_Comments__c, WOD_2__Pre_Authorization__c, WOD_2__Rate__c, WOD_2__Received_Date__c, WOD_2__Rejection_Reasons__c, WOD_2__Related_Business_Unit__c, WOD_2__Related_Record_Id__c, WOD_2__Related_Record_Name__c, WOD_2__Reopen_Description__c, WOD_2__Request_SMR__c, WOD_2__Require_Recalc_Summary__c, WOD_2__Service_Ticket__c, WOD_2__Shipment_Number__c, WOD_2__Source_Claim__c, WOD_2__Start_Time__c, WOD_2__Submit_Date__c, WOD_2__Submitted_By__c, WOD_2__Total_Handling_Cost__c, WOD_2__Total_Landing_Cost__c, WOD_2__Tr_Fault_Code_Comment__c, WOD_2__Tr_Probable_Cause__c, WOD_2__Tr_Work_Performed_Comments__c, WOD_2__Units_Usage__c, WOD_2__Upcoming_Completed_Schedule__c, WOD_2__Warranty_Product__c, WOD_2__Work_Order__c, WOD_2__Work_Package_Headers__c, WOD_2__Work_Performed_Comments__c, WOD_2__ClaimTemplateID__c, WOD_2__Claim_Submission_Time__c, WOD_2__Repair_Name__c, WOD_2__SMR_Reason__c, WOD_2__Acknowledgement__c, Cause__c, Correction__c, Dealer_Claim_Number__c, Final_Component_Code__c, Is_PDI__c, Is_Policy__c, MCP__c, PRSM_Claim_Number__c, Repair_Story__c, Sub_BU__c, Is_Chassis__c, Labor_Type__c, Make__c, PFP_Component_Code__c, Vendor__c, Account_Fromula__c, Claimed_Asset__c, Customer_Part_Replacement__c, Date_Of_Replacement__c, PRSM_Base_Model__c, PRSM_Make__c, PRSM_Model__c, PRSM_Replace_Distance__c, PRSM_VIN__c, VIN_Entered_Manually__c, Roll_Up_Roll_Down_Component__c, Is_Dynamic_Policy__c, WOD_2__Appeal_Reasons__c, WOD_2__Reopen_Reasons__c, twodsrm__Is_NotEligible_For_Recovery_Claim__c, twodsrm__SR_Claim_Message__c, twodsrm__SR_Claim_Status__c, twodsrm__SR_Currency__c, twodcms__Member_Template_Association__c, PRSM_Sequential_Current_Level__c, Parent_Claim__c, Group_Code__c, Product_Type__c, PRSM_Product_Type__c, PRSM_Responsibility_Code__c, Claim_Sub_Type__c, PRSM_Routing_History__c, PRSM_Sequential_Target_Level__c, Usage_Type_with_Miles_and_Km__c, PRSM_DSM_Approved__c, Number_Of_Attachment__c, PRSM_System_Bypass_Validation__c, System_Suggested_PFP__c, Do_not_allow_appeal_for_this_claim__c, PRSM_Clone_Source_Id__c, PRSM_Is_Cloned_Record__c, Suggested_Fault_Code__c, Customer_Notified__c, Product_In__c, Product_Out__c, Repair_End__c, Repair_Start__c, Is_Lemon_Law_Applicable__c, FMWR_CLaim__c, Exchange_Rate__c, FMWR_Parent_Claim_No__c, Responsible_Supplier__c, PRSM_Supplier_Authorization_Number__c, Supplier_Response__c, Allow_Labor_Edit__c, Allow_Other_Cost_Edit__c, Allow_Parts_Edit__c, Return_Disposition__c, Template_Labor_Threshold__c, Template_Name__c, Template_NonDTNAParts_Threshold__c, Template_Other_Cost_Threshold__c, Template_Parts_Threshold__c, PFP_Supplier__c, Sub_BU_CCT__c, FS_Code__c, tvnt__Warranty_Coverages__c from WOD_2__Claim__c",
+    "table_name": "SF_CLAIM",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-04-10T12:06:28.124036"
+  },
+  "SF_ACCOUNT": {
+    "query": "SELECT Id, IsDeleted, MasterRecordId, Name, Type, RecordTypeId, ParentId, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, BillingLatitude, BillingLongitude, BillingGeocodeAccuracy, BillingAddress, ShippingStreet, ShippingCity, ShippingState, ShippingPostalCode, ShippingCountry, ShippingLatitude, ShippingLongitude, ShippingGeocodeAccuracy, ShippingAddress, Phone, Fax, AccountNumber, Website, PhotoUrl, Sic, Industry, AnnualRevenue, NumberOfEmployees, Ownership, TickerSymbol, Description, Rating, Site, CurrencyIsoCode, OwnerId, CreatedDate,WOD_2__Business_Units__c, WOD_2__Dealer_Group__c, WOD_2__Ultimate_Parent_Account__c, WOD_2__Warranty_Account_Type__c, twodcms__Active__c, twodcms__Primary_Email_Id__c, tvnt__Established_Business__c, tvnt__Preferred_Contact_Method__c, twodsrm__Supplier_Type__c, Abbrev_Name__c, Account_Category__c, Account_Shared__c, Account_ready_for_MDM__c, Account_sent_for_MDM_Incremental_Load__c, Account_sent_for_MDM_Initial_Load__c, Account_updated_with_MDM_CAN__c, Active_Date__c, Additional_States__c, Address_Confidence_Code__c, Alias_org_code__c, Allison_Certified__c, Archival_Date__c, Archival_Extension_Requested__c, Archival_Requestor__c, Billing_Address__c, Body_Type__c, Branch_ID__c, Branch_Name__c, Brand_Description_DCC__c, Brand_Description_DDC__c, Brand_Description_FCCC__c, Brand_Description_TBB__c, Brand_Level_of_Authorization_FCCC__c, Brand_Level_of_Authorization_TBB__c, Brands__c, BrnID__c, Business_Associate_Type__c, CBFC_Account_Number__c, CUST_GRP_NAME__c, Case_Record_Count__c, Case_Utilization_Score__c, Chassis_Type__c, Clan_Code__c, Clan_Name__c, Confidence_Code__c, Contact_Record_Count__c, Contact_Utilization_Score__c, Contract_Type__c, CountryCd__c, Country__c, County__c, Created_Month__c, Cummins_Certified__c, Current_Year_Dealer_Objective__c, Customer_Account_Number__c, DNBConnect_DUNS_Number__c, Data_Source__c, Date_Last_Updated__c, Date_Of_Load__c, Dealer_Bill_To_Entity_ID__c, Dealer_Code__c, Dealer_Eligible_for_Pinnacle_Transaction__c, Dealer_Enrolled__c, Dealer_Entity_ID__c, Dealer_ID__c, Dealer_Master_Entity_ID__c, Dealer_POS__c, Dealer_Parent_Entity_ID__c, Director_of_Parts__c, District_Service_Manager_Primary__c, District_Service_Manager_Secondary__c, DomicileCountryCode__c, Duns_Number__c, EliteSupport__c, Email_Address__c, Enabled_For_Review__c, Export_Consolidators_Code__c, External_Country__c, FCCC_Account_Type__c, FCCC_Anniversary_Date__c, Facing_Dealer_Name__c, Family_Group__c, Fleet_Account_Manager__c, Fleet_Bill_To_Entity_ID__c, Fleet_Category__c, Fleet_Currency__c, Fleet_Division__c, Fleet_Eligible_for_Transaction__c, Fleet_Entity_Code__c, Fleet_Entity_ID__c, Fleet_Facing_Dealer_Code__c, Fleet_Location_Type__c, Fleet_Master_Entity_ID__c, Fleet_Parent_Code__c, Fleet_Parent_Entity_ID__c, Fleet_Program__c, Fleet_Size__c, Fleet_Type__c, Fob__c, Freightliner_BrandLevel_of_Authorization__c, Globus_Code__c, Holding_Company__c, Inactive_Date__c, LEAD_DIST_MGR__c, Last_Modified_By_Data_Steward_User__c, Last_Updated_By__c, Lead_Source__c, Legal_Name__c, Location_Code__c, Location_Type__c, Mainframe_ID__c, Market_Segment_Code__c, Match_Data_Profile__c, Match_Grade__c, MiscTypeCd__c, Mismatch_Allowed__c, None__c, Number_of_Vehicles__c, Oasis__c, On_Hold__c, Operational_Group__c, Order_Record_Count__c, Order_Utilization_Score__c, Other_Reason__c, OutletCd__c, OutletTypeCd__c, Outletstatuscd__c, PRMS_Notes__c, PRSM_Account_Type__c, PRSM_Active__c, PRSM_Asset__c, PRSM_Attention__c, PRSM_Auto_Debit_Aged_Claims__c, PRSM_Auto_Registration__c, PRSM_Billing_Country__c, PRSM_Certification_Level__c, PRSM_Claim_Billing_Contact_Email__c, PRSM_Claim_Submittal_Method__c, PRSM_Commodity__c, PRSM_Complete_8D_Days_Priority__c, PRSM_Complete_8D_Days_STD__c, PRSM_Customer_Process__c, PRSM_DIBS_Supplier_Code__c, PRSM_DVCM_Group_Level__c, PRSM_DWC_CM__c, PRSM_Debit_Contact_Email__c, PRSM_District__c, PRSM_Domicile_Country__c, PRSM_ECS_Dealer__c, PRSM_Elite_Dealer__c, PRSM_Enable_Direct_Pay__c, PRSM_External_Id__c, PRSM_Init_Inspection_Days_Priority__c, PRSM_Init_Inspection_Days_STD__c, PRSM_Is_Ampnet__c, PRSM_Is_DTR_Un_Registered__c, PRSM_Last_Charge_Back_Date__c, PRSM_Last_Claim_Submit_Date__c, PRSM_Mailing_Country__c, PRSM_Maintenance_Supervisor_Name__c, PRSM_Maintenance_Supervisor_Phone__c, PRSM_MasterSupplier__c, PRSM_Notes__c, PRSM_OPR_Initials__c, PRSM_Override_Allow_Claim_on_Behalf__c, PRSM_Override_Allow_Filing_of_Claims__c, PRSM_Override_Allow_Registration__c, PRSM_Parent__c, PRSM_Part_Distribution_Factor__c, PRSM_Parts_Code__c, PRSM_Photo_Return_Days__c, PRSM_Photo_Return__c, PRSM_Program_Type__c, PRSM_Received_Days_Priority__c, PRSM_Received_Days_STD__c, PRSM_Region__c, PRSM_Reimbursement_Method__c, PRSM_Requires_Manual_Review__c, PRSM_Response_Method__c, PRSM_Return_Days__c, PRSM_Same_as_Billing_Address__c, PRSM_Scrap_Days_SCC__c, PRSM_Scrap_Days__c, PRSM_Source__c, PRSM_Sub_Business_Unit__c, PRSM_TBBCAN__c, PRSM_TCAN__c, PRSM_T_Currency_Code__c, PRSM_Transportation_Director_Name__c, PRSM_Transportation_Director_Phone__c, PRSM_UPS_Estafeta_shipper_Id__c, PRSM_Variance__c, PRSM_Work_Queue_Comments__c, PRSM_Work_Queue_Status__c, PRSM_isTax__c, PRSM_is_MDM_Sync__c, PRSM_taxAreaId__c, Parent_DNB_DUNS_Number__c, Parent_Type__c, Partner_Code__c, Parts_Phone_Number__c, Physical_Address__c, Pinnacle_Dealer_Location_Type__c, Pinnacle_Fleet_Code__c, PrimaryOutletCd__c, Primary_Branch_Indicator__c, Primary_Branch_Lookup__c, Primary_CAN__c, Primary_Contact_Name__c, Private_Ownership_List1_Name__c, Private_Ownership_List1__c, Private_Ownership_List2_Name__c, Private_Ownership_List2__c, Private_Ownership_List3_Name__c, Private_Ownership_List3__c, Private_Ownership_List4_Name__c, Private_Ownership_List4__c, Private_Ownership_List5_Name__c, Private_Ownership_List5__c, Procede_ID__c, Publish_to_MDM__c, ROWID__c, Region__c, Regional_General_Manger_for_Service__c, Regional_Parts_Manager__c, Request_Reason__c, SEGGRP__c, Sales_District__c, Sales_Person__c, Sales_Phone_Number__c, Senior_Regional_Parts_Manager__c, Service_District_Code_Primary__c, Service_District_Code_Secondary__c, Service_Phone_Number__c, Service_Provider__c, Service_Region_Code_Primary__c, Service_Region_Code_Secondary__c, Service_Region_Name_Primary__c, Service_Region_Name_Secondary__c, Service__c, SharedCd__c, Shop_Code__c, Source__c, SponsoringOutletCode__c, Status__c, Supplier_Code__c, Supplier_Type__c, Supply_Chain_Security_Membership__c, Supply_Chain_Security_Risk_Rating__c, Tier_N_Supplier_Locations__c, Time_Zone__c, Toll_Free_Number__c, Total_Tractors__c, Total_Trucks__c, Type_of_Account__c, USDOT__c, Used_RV_Sales__c, User_Modified_By__c, User_Modified_Date__c, Vocation_Group__c, Vocation_Name__c, Vocation_Segment__c, Vocation__c, WesternStar_BrandLevel_of_Authorization__c, test__c, PRSM_AccountType__c, PRSM_Allow_Claim__c, PRSM_Allow_Claim_on_Behalf__c, PRSM_Allow_Registration__c, PRSM_Ampnet_Formula__c, PRSM_Direct_Customer__c, PRSM_Master_Supplier__c, PRSM_ParentAccountNumber__c, PRSM_Status__c, Private_Ownership_Name__c, Scheduled_for_Archival__c, Utilization_Count__c FROM Account ",
+    "table_name": "SF_ACCOUNT",
+    "mode": "Create/Replace",
+    "batch_size": 22000,
+    "saved_at": "2026-06-09T20:25:47.303898"
+  },
+  "SF_ASSET": {
+    "query": "select Id, ContactId, AccountId, ParentId, RootAssetId, Product2Id, ProductCode, ProductFamily, ProductDescription, IsCompetitorProduct, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, IsDeleted, CurrencyIsoCode, Name, SerialNumber, InstallDate, ManufactureDate, StatusReason, Uuid, ExternalIdentifier, PurchaseDate, UsageEndDate, Status, DigitalAssetStatus, Price, Quantity, Description, OwnerId, RecordTypeId, LocationId, AssetProvidedById, AssetServicedById, IsInternal, AssetLevel, StockKeepingUnit, ConsequenceOfFailure, Street, City, State, PostalCode, Country, Latitude, Longitude, GeocodeAccuracy, Address, LastViewedDate, LastReferencedDate, WOD_2__Business_Unit__c, WOD_2__Customer__c, WOD_2__Pre_Owned__c, WOD_2__Type__c, WOD_2__Unit_Usage__c, tvnt__Scrapped__c, tvnt__Stolen_Inventory__c, IsRetailSold__c, PRSM_Acquisition__c, PRSM_Application_Code__c, PRSM_Axle_Fin_Part_Num__c, PRSM_Axle_Ship_To_Plant__c, PRSM_Axle_Tandem_Asm__c, PRSM_Build_Date__c, PRSM_CAB_Start_Date__c, PRSM_Dealer_Received_Date__c, PRSM_Demonstrator__c, PRSM_Frame_Rail_Length__c, PRSM_Glider__c, PRSM_In_Service_Distance__c, PRSM_Incomplete__c, PRSM_Inservice_Date__c, PRSM_Lead_Vehicle__c, PRSM_Offline_Date__c, PRSM_Order_Date__c, PRSM_Ordered_Policy__c, PRSM_PDI_Credit_Memo_Date__c, PRSM_PDI_Date__c, PRSM_PDI_Location__c, PRSM_PDI_Repair_Order__c, PRSM_PDI_Responsibility__c, PRSM_Product_Type__c, PRSM_Product_Year__c, PRSM_Provider_Code__c, PRSM_Reman_Category__c, PRSM_Reman_Part__c, PRSM_Reman__c, PRSM_Retail_Sold__c, PRSM_Revised_Policy__c, PRSM_Sales_Order_Line__c, PRSM_Sales_Order_No__c, PRSM_Sales_Order_Plant__c, PRSM_SerialNumber__c, PRSM_Ship_Date__c, PRSM_Ship_To__c, PRSM_Special_Warranty_Code__c, PRSM_Stolen__c, PRSM_Sub_Product_Type__c, PRSM_Suspension__c, PRSM_Totaled__c, PRSM_Unit_Number__c, PRSM_Unit_Of_Measure__c, PRSM_WTMaxFront__c, PRSM_WTMaxRear__c, PRSM_WTMaxVeh__c, PRSM_WheelBase__c, Rear_Axle_Ratio__c, VEH_RAXL_WEIGHT__c, PRSM_Position__c, PRSM_Has_Active_Extended_Coverages__c, PRSM_Send_To_IMS__c, PRSM_Transporter_Code__c, PRSM_Auto_Registration__c, PRSM_Ordering_Customer_Account__c, PRSM_Ordering_Dealer_Code__c, PRSM_ParentId__c, PRSM_Product__c, PRSM_Registered_Dealer__c, PRSM_Status__c, PRSM_Make__c, AC__c, APU__c, Acquisition_Customer__c, Brake_Type__c, Configuration__c, Country_Code__c, Country_Name__c, Customer__c, DATE_DELV_RQST__c, DATE_LATEST_ACCEPT__c, DIST_CD__c, DIST_NAME__c, DIST_SALES_MGR__c, EMISSION_YR__c, Engine_Brake__c, Engine_EPA_Year__c, Engine_Mfr__c, Engine_Model__c, Engine__c, Exhaust_Type__c, Exterior_Color__c, FRONT_AXLE_MDL_NO__c, Fifth_Wheel_Type__c, Fleet__c, Front_Axle_Setback__c, Front_Axle_WR__c, Front_Axle__c, Front_Wheel_Size__c, Front_Wheel_Type__c, Fuel_Tank_Capacity__c, Fuel_Tank_Count__c, Fuel_Type__c, GVWR__c, GVW__c, Horse_Power__c, Interior_Color__c, Interior_Type__c, Location__c, MY__c, Mainframe_ID__c, Make__c, Marketability__c, Mileage_Band__c, Mileage__c, Model__c, Opportunity__c, Order__c, Orig_Fleet__c, PROD_FAM_CD__c, PRSM_Acquisition_Comment__c, PRSM_Acquisition_Date__c, PRSM_Acquisition_Type__c, PRSM_Active_Cert_Odometer_Reading__c, PRSM_Allow_Demo_DeRegistration__c, PRSM_Auctioned__c, PRSM_Auto_Registration_Agreement__c, PRSM_Axle_WGT_Rating__c, PRSM_Base_Model__c, PRSM_BuildDateInServiceDate__c, PRSM_Bumper_Color__c, PRSM_Cab_Color_A__c, PRSM_Certification_DPFInstalledBy_Dealer__c, PRSM_Certification_DPF_Installed_Status__c, PRSM_Certification_Submitting_Location__c, PRSM_Chassis_Color__c, PRSM_Comment__c, PRSM_Comments__c, PRSM_Component_Serial_Number__c, PRSM_Component__c, PRSM_Current_Odometer_Reading__c, PRSM_Cylinder__c, PRSM_DDC_Customer_Name__c, PRSM_DDC_Customer__c, PRSM_DTR_Certification_Date__c, PRSM_DTR_Certification_Status__c, PRSM_De_Registered__c, PRSM_Dealer_codename_formula__c, PRSM_Default_Registration_Date__c, PRSM_Demonstrator_Date__c, PRSM_Emission_year__c, PRSM_Engine_Base_Model__c, PRSM_Engine_Horse_Power_Value__c, PRSM_Engine_MCP_Type__c, PRSM_Engine_Make__c, PRSM_Engine_Manufacturer__c, PRSM_Engine_SN__c, PRSM_Engine_Torque_Level__c, PRSM_Engine_Torque_Value__c, PRSM_Exterior_Paint_Package__c, PRSM_Exterior_Sunvisor_Color__c, PRSM_Favor_indc__c, PRSM_First_Service_Date__c, PRSM_Front_Axle__c, PRSM_Front_Wheel_Color__c, PRSM_GCWR__c, PRSM_GVWR__c, PRSM_Has_Active_Base_Coverages__c, PRSM_Has_Active_DTR_Contract__c, PRSM_Has_Data_Book_Codes__c, PRSM_Has_Default_Registration__c, PRSM_Has_Demo_Registration__c, PRSM_Has_Extended_Registration__c, PRSM_Has_InTransit_Flag__c, PRSM_Has_No_Coverage__c, PRSM_InCampaignBlockWR__c, PRSM_In_Campaign_Block_Transactions__c, PRSM_IsEligible_for_DTRCertification__c, PRSM_Is_DTNA__c, PRSM_Latest_IR_Expiry_Date__c, PRSM_Manufacturer__c, PRSM_Manufacturing_Plant__c, PRSM_Model_Year_Integer__c, PRSM_New_Registration_Date__c, PRSM_Ordered_Coverage__c, PRSM_Ordered_Customer_Phone__c, PRSM_Ordered_Domicile_Country__c, PRSM_Ordered_Domicile__c, PRSM_Ordered_Policy_Formula__c, PRSM_Ordered_Pricebook__c, PRSM_Ordered_Vocationcode__c, PRSM_OrderingCustomerCode_Name_Formula__c, PRSM_OrderingDealerCode_Name_Formula__c, PRSM_Ordering_Customer_Account_Number__c, PRSM_Ordering_Customer_Account_formula__c, PRSM_Ordering_Customer_Namecode_formula__c, PRSM_Ordering_Dealer_Code_formula__c, PRSM_Original_Registered_Customer__c, PRSM_Original_Registered_Dealer__c, PRSM_Out_of_Sync__c, PRSM_PDI_Credit_Memo__c, PRSM_PNZ_Code__c, PRSM_Part_Number__c, PRSM_Pending_C2C__c, PRSM_Pending_D2D__c, PRSM_Pending_WR__c, PRSM_Policy_Code__c, PRSM_Pricebook_Data_Book_Code__c, PRSM_Product_Formula__c, PRSM_QueuedRefreshWr__c, PRSM_Rear_Axle__c, PRSM_Rear_Wheel_Color__c, PRSM_Refresh_Default_WR__c, PRSM_Refresh_Demo_WR__c, PRSM_Refresh_New_WR__c, PRSM_RegisteredCustomer_Name_Formula__c, PRSM_RegisteredDealer_Name_Formula__c, PRSM_Registered_Blueprint__c, PRSM_Registered_Customer_Account_Number__c, PRSM_Registered_Customer_Account__c, PRSM_Registered_Customer_Phone__c, PRSM_Registered_Dealer_Code_Formula__c, PRSM_Registered_Domicile__c, PRSM_Registered_Vocation__c, PRSM_Registered_vocationcode__c, PRSM_Repossessed__c, PRSM_Revised_Coverage__c, PRSM_Sale_Date__c, PRSM_SalesTerm_StartDate__c, PRSM_Sales_Terms_Coverage__c, PRSM_Sales_Terms_End_Date__c, PRSM_Salvaged__c, PRSM_Seq_No__c, PRSM_Series__c, PRSM_Stolen_In_transit__c, PRSM_Sub_Component__c, PRSM_Synth_Lube_Ind__c, PRSM_TBB_Delivery_Date__c, PRSM_TBB_Order_Number__c, PRSM_Torque__c, PRSM_Total_Attachment__c, PRSM_Totaled_In_transit__c, PRSM_Transmission_Manufacturer__c, PRSM_Transmission_SN__c, PRSM_Type_Code__c, PRSM_Unit_Type__c, PRSM_UnmappedModel__c, PRSM_Unmapped_Ordered_Vocationcode__c, PRSM_Unmapped_Registered_vocationcode__c, PRSM_Unmapped__c, PRSM_Used_Coverages__c, PRSM_Used_InService_Date__c, PRSM_Used_InService_Distance__c, PRSM_Warranty_Registered__c, PRSM_Wrecked_Damaged_In_transit__c, PRSM_Wrecked_Damaged__c, Published_Price__c, Push_Axle_Count__c, REAR_AXLE_MDL_NO__c, ROOF_TYPE_CAT__c, Rear_Axle_Type__c, Rear_Axle_WR__c, Rear_Axle__c, Rear_Wheel_Size__c, Rear_Wheel_Type__c, Region__c, Roof_Fair__c, SUSPENSION_MDL_NO__c, Side_Fairing_Type__c, Sleeper_Size__c, Sleeper_Type__c, StatusCode__c, Status_Code__c, Status_Notes__c, Suffix__c, Suspension_Type__c, Suspension__c, TRANSMISSION_MDL_N__c, Trans_Speed__c, Transmission_Mfr__c, Transmission_Model__c, Transmission_Type__c, Transmission__c, Upper_Bunk__c, VEHINDC__c, Wheelbase__c, X5th_Wheel__c, X829_DB_CD__c, X829_DESCRIPTION__c, PRSM_Data_Book_Code_Count__c, PRSM_DTR_Certification_Active__c, PRSM_DTR_Certification_Expiry_Date__c, PRSM_Eligible_to_Extended_Registration__c, PRSM_Is_Buyers_Assurance_Cov_Mandatory__c, PRSM_Is_DTNA_Formula__c, PRSM_Is_Eligible_for_Acquisition__c, PRSM_Ordered_Customer_Address__c, PRSM_Ordered_Customer_Email__c, PRSM_Ordered_Domicile_formula__c, PRSM_Ordered_Vocation_Formula__c, PRSM_Ordering_Customer_Domicile_Region__c, PRSM_Ordering_Customer_Domicile__c, PRSM_Parent_Has_Default_WR__c, PRSM_Pending_Transactions__c, PRSM_Registered_Customer_Address__c, PRSM_Registered_Customer_Domicile_Region__c, PRSM_Registered_Customer_Domicile__c, PRSM_Registered_Customer_Email__c, PRSM_Sale_Type__c, PRSM_Special_Flag__c, PRSM_Vocation_Name__c, PRSM_isEligibleforextendedReimbursement__c, PRSM_Registered_Vocation_Formula__c, VEH_CURR_ENG_BASE_MDL_CD__c, VIN_NO__c, PRSM_Current_MCP__c, PRSM_Has_Refurbishment_Registration__c, PRSM_Has_Sales_Term_Registration__c, PRSM_Has_Sales_Term__c, PRSM_Refurbishment_Policy_Code__c, PRSM_Sales_Term_Policy_Code__c, PRSM_INT_DB_Count__c, PRSM_TBB_DB_Code_Count__c from asset",
+    "table_name": "SF_ASSET",
+    "mode": "Create/Replace",
+    "batch_size": 20000,
+    "saved_at": "2026-05-21T17:23:39.223631"
+  },
+  "SF_BLUEPRINT": {
+    "query": "select Id,External_Id__c, Name,PRSM_Policy_Name__c,PolicyCode__c, WOD_2__Expression__c,RecordTypeId  from WOD_2__Policy_Definition__c WHERE  RecordTypeId='012WH000001jJW5YAM'",
+    "table_name": "SF_BLUEPRINT",
+    "mode": "Create/Replace",
+    "batch_size": 20000,
+    "saved_at": "2026-04-12T17:50:33.677219"
+  },
+  "SF_BUSINESS_CAT_CONFIG": {
+    "query": "select Id,Name from WOD_2__Business_Category_Configuration__c ",
+    "table_name": "SF_BUSINESS_CAT_CONFIG",
+    "mode": "Create/Replace",
+    "batch_size": 20000,
+    "saved_at": "2026-04-12T18:01:50.801150"
+  },
+  "SF_TECHNICIAN": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Customer_Account__c, WOD_2__End_Date__c, WOD_2__Location_Code__c, WOD_2__Start_Date__c, WOD_2__Technician_ID__c, Active__c, ExtID_Integration__c, External_Id__c FROM WOD_2__Technician__c",
+    "table_name": "SF_TECHNICIAN",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-04-15T00:22:51.747955"
+  },
+  "SF_WARRANTY_PRODUCT_PRICEBOOK": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Approver__c, WOD_2__Price__c, WOD_2__Product__c, WOD_2__Unit_Price__c, WOD_2__Valid_From__c, WOD_2__Valid_Until__c, WOD_2__Warranty_Product__c, twodsrm__Supplier_Part__c, Warranty_Product_PriceBook_Ext_ID__c FROM WOD_2__Warranty_Product_Pricebook__c ",
+    "table_name": "SF_WARRANTY_PRODUCT_PRICEBOOK",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-04-15T00:58:24.851142"
+  },
+  "SF_PRODUCT2": {
+    "query": "SELECT Id, Name, ProductCode, Description, IsActive, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, Family, CurrencyIsoCode, RecordTypeId, ExternalDataSourceId, ExternalId, DisplayUrl, QuantityUnitOfMeasure, IsDeleted, IsArchived, LastViewedDate, LastReferencedDate, StockKeepingUnit, WOD_2__Business_Units__c, WOD_2__Is_Serialized__c, WOD_2__ItemType__c, WOD_2__Level__c, WOD_2__Product_Type__c, PRSM_Composite_Key__c, PRSM_External_Id__c, PRSM_Height_DVCM__c, PRSM_Is_DTNA__c, PRSM_Length_DVCM__c, PRSM_Part_Name_DVCM__c, PRSM_Part_Type__c, PRSM_Reman_Indicator_DVCM__c, PRSM_Service_Model__c, PRSM_Weight_Gross_DVCM__c, PRSM_Weight_Net_DVCM__c, PRSM_Weights_Unit_DVCM__c, PRSM_Width_DVCM__c, PRSM_Authorization_Exempt_Supplier__c, PRSM_Is_Blanket__c, PRSM_Is_IMACs_Part__c, PRSM_Product_Code__c, Add_On_Name__c, Allow_2_PDI__c, Cab_Types__c, Chassis_Model__c, PRSM_301DS_Indicator__c, PRSM_301PDC_Indicator__c, PRSM_801DS_Indicator__c, PRSM_801PDC_Indicator__c, PRSM_Active__c, PRSM_BaseModel_External_Id__c, PRSM_Business_Unit_PR__c, PRSM_CANDS_Core_Program__c, PRSM_CANPDC_Core_Program__c, PRSM_Category_Handling__c, PRSM_Component_DVCM__c, PRSM_Component_IMACS__c, PRSM_Component__c, PRSM_Core_Indicator__c, PRSM_Cross_Plant_Material_Status__c, PRSM_DSM__c, PRSM_Description_ES__c, PRSM_Dimensions_Unit_DVCM__c, PRSM_Dimensions_Unit_Desc_DVCM__c, PRSM_Dimensions_Unit_Desc__c, PRSM_Dimensions_Unit__c, PRSM_External_Material_Group__c, PRSM_Factor__c, PRSM_General_Item_Category__c, PRSM_Height__c, PRSM_Is_DDC_Part__c, PRSM_Is_DVCM_Part__c, PRSM_Is_Paragon_Part__c, PRSM_Item_Type_IMACs__c, PRSM_Item_Type__c, PRSM_Length__c, PRSM_Make_External_ID__c, PRSM_Manufacturing_Indicator__c, PRSM_Manufacturing_PN__c, PRSM_Master_No__c, PRSM_Material_Group__c, PRSM_Model_External_ID__c, PRSM_Name_ES__c, PRSM_PDI_End_Date__c, PRSM_PDI_Start_Date__c, PRSM_Parent__c, PRSM_Part_Format_Code__c, PRSM_Part_Name_IMACs__c, PRSM_Part_Status__c, PRSM_Product_Class__c, PRSM_Product_Type__c, PRSM_Reman__c, PRSM_SEAG_Code__c, PRSM_Series_Code__c, PRSM_Short_Description__c, PRSM_Source__c, PRSM_Sub_Business_Unit__c, PRSM_USDS_Core_Program__c, PRSM_USPDC_Core_Program__c, PRSM_Unit_of_Measure__c, PRSM_Units_of_Measure__c, PRSM_Units_of_Measurement_DVCM__c, PRSM_Weight_Gross__c, PRSM_Weight_Net__c, PRSM_Weights_Unit__c, PRSM_Width__c, QQ_ATS_Service__c, QQ_Add_On_Type__c, QQ_Axle_Type__c, QQ_CARB_or_OPT_In__c, QQ_Cost__c, QQ_Coverage_Options__c, QQ_Coverage_Type__c, QQ_Databook_Code__c, QQ_Deductible__c, QQ_Domicile__c, QQ_Effective_Date__c, QQ_Engine_Type__c, QQ_FMV_Date__c, QQ_Family_Code__c, QQ_Group__c, QQ_Manufacture_Suggested_Retail_Price__c, QQ_Manufacturer__c, QQ_Mileage_Interval__c, QQ_Miles__c, QQ_Model__c, QQ_Months__c, QQ_No_of_Service__c, QQ_PM_Vocation__c, QQ_Package__c, QQ_Price__c, QQ_Pricing_Types__c, QQ_Publication_Status__c, QQ_Service_Interval__c, QQ_StandaloneText__c, QQ_Standalone__c, QQ_Transmission_Clutch_Type__c, QQ_Transmission_Model__c, QQ_Used_Coverage_Type__c, QQ_Vocation_Description_Level_Multiselec__c, QQ_Vocation_Description_Level__c, Record_ID__c, Record_Type_Name__c, PRSM_Base_Model__c, PRSM_Component_Description_DVCM__c, PRSM_Component_Description_IMACs__c, PRSM_Component_Description_Paragon__c, PRSM_Is_DTNA_Formula__c, PRSM_Make__c, PRSM_SEAG_Description__c, PRSM_Translated_Description__c, QQ_AddOn_Product_Text__c, QQ_Coverage_Sub_Type_Options__c, QQ_Coverage_Type_Options__c, QQ_Detailed_Product_PM__c, QQ_Detailed_Products__c, QQ_Domicile_Canada__c, QQ_Domicile_USA__c, QQ_Duration__c, QQ_Kms__c, QQ_Price_Per_Mile__c, QQ_Price_Per_Month__c, QQ_Product_Type__c, QQ_Record_Type_Id__c, QQ_Record_Type_Name__c, QQ_Total_Service_Duration__c, PRSM_Item_Type_PTSI__c, PRSM_Unit_of_Measure_PTSI__c, PRSM_Is_PTSI_Part__c FROM PRODUCT2",
+    "table_name": "SF_PRODUCT2",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-04-15T11:22:32.992016"
+  },
+  "SF_MODIFIER": {
+    "query": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, tvnt__Action__c, tvnt__Active_From__c, tvnt__Active_Until__c, tvnt__Capping_Type__c, tvnt__Cut_Off_Value__c, tvnt__ExpressionJsonField__c, tvnt__Modifier_Amount_Formula__c, tvnt__Modifier_Entity__c, tvnt__Priority__c, tvnt__Type__c, tvnt__Value__c, tvnt__Modifier_Entity_Sub_Type__c, Cost_Category__c, Modifier_Ext_ID__c, Payment_Definition__c from tvnt__Modifier__c",
+    "table_name": "SF_MODIFIER",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-04-15T15:47:03.974776"
+  },
+  "SF_USER": {
+    "query": "SELECT Id, Username, LastName, FirstName, Name FROM User ",
+    "table_name": "SF_USER",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-04-15T17:49:24.532268"
+  },
+  "SF_GROUP": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, tvnt__Business_Units__c, tvnt__Description__c, tvnt__JSON_Data__c, tvnt__Object_Name__c, External_Id__c, Sub_Type__c FROM tvnt__TCoreGroup__c ",
+    "table_name": "SF_GROUP",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-04-16T13:22:47.360972"
+  },
+  "SF_PRSM_ACCOUNTASSOCIATION__C": {
+    "query": "SELECT Id,Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, Customer_Account__c, Dealer_Account__c, PRSM_Customer_Account_Number__c, PRSM_Dealer_Account_Number__c FROM PRSM_AccountAssociation__c",
+    "table_name": "SF_PRSM_ACCOUNTASSOCIATION_C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-04-16T23:01:41.485819"
+  },
+  "SF_CONTRACTA": {
+    "query": "select Id, AccountId, CurrencyIsoCode, Pricebook2Id, OwnerExpirationNotice, StartDate, EndDate, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, BillingLatitude, BillingLongitude, BillingGeocodeAccuracy, BillingAddress, ShippingStreet, ShippingCity, ShippingState, ShippingPostalCode, ShippingCountry, ShippingLatitude, ShippingLongitude, ShippingGeocodeAccuracy, ShippingAddress, ContractTerm, OwnerId, Status, CompanySignedId, CompanySignedDate, CustomerSignedId, CustomerSignedTitle, CustomerSignedDate, SpecialTerms, ActivatedById, ActivatedDate, StatusCode, Description, RecordTypeId, Name, IsDeleted, ContractNumber, LastApprovedDate, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, PRSM_Agreement_Type__c, PRSM_Claim_Entry_Type__c, PRSM_Days_from_Factory_Release__c, PRSM_Excluded_claim_types__c, PRSM_External_Id__c, PRSM_Registered_Distance__c, PRSM_Customer_Account__c, PRSM_Active1__c, PRSM_Agreement_Term__c, PRSM_Auto_Registration__c, PRSM_Ordering_Customer_Account_Formula__c, PRSM_Ordering_Dealer__c, PRSM_Registered_Customer_Account__c, PRSM_Registered_Dealer_Code__c, PRSM_Registered_Dealer__c, PRSM__c, PRSM_Ordering_Dealer_Code_Formula__c, PRSM_Registered_Customer_Account_Number__c from Contract ",
+    "table_name": "SF_CONTRACTA",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-04-17T00:08:32.100069"
+  },
+  "SF_PAYMENT_DEFINITION": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, WOD_2__Business_Units__c, WOD_2__Cost_Categories__c, WOD_2__Is_Default__c, WOD_2__Status__c, CostReference__c, Cost_Sub_category__c, Payment_Definition_Code__c, DM_External__c FROM WOD_2__Payment_Definitions__c ",
+    "table_name": "SF_PAYMENT_DEFINITION",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-04-17T20:03:57.353715"
+  },
+  "SF_PAYMENT_MODIFIERS": {
+    "query": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Action__c, WOD_2__Active_From__c, WOD_2__Active_Until__c, WOD_2__Business_Units__c, WOD_2__Capping_Type__c, WOD_2__Cut_Off_Value__c, WOD_2__Dealer_Group__c, WOD_2__Dealer__c, WOD_2__PartNumber_P2__c, WOD_2__Part_Group__c, WOD_2__Part__c, WOD_2__Payment_Configuration__c, WOD_2__Payment_Definition_Item__c, WOD_2__Payment_Definition__c, WOD_2__Type__c, WOD_2__Value__c, WOD_2__Priority__c, Claim_Expression__c, Cost_Subcategory__c, DM_External__c, Labor_Type__c, Labor_Code_Type__c from WOD_2__Payment_Modifiers__c",
+    "table_name": "SF_PAYMENT_MODIFIERS",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-04-17T23:06:51.040365"
+  },
+  "SF_PRSM_PARTFAMILY__C": {
+    "query": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById,  PRSM_PFP__c, PRSM_PartFamilyCode__c, PRSM_PartFamilySupplierCode__c, PRSM_ReferenceMarket__c, PRSM_UtilizationMarket__c from PRSM_PartFamily__c",
+    "table_name": "SF_PRSM_PARTFAMILY_C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-04-20T11:09:56.801214"
+  },
+  "SF_SERVICE_CAMPAIGN": {
+    "query": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, ConnectionReceivedId, ConnectionSentId, twodcms__Applicable_for_all__c, twodcms__Business_Category_Configuration__c, twodcms__Business_Units__c, twodcms__Campaign_Class__c, twodcms__Campaign_Description__c, twodcms__Campaign_Type__c, twodcms__Consumed_Budget__c, twodcms__End_Date__c, twodcms__Estimated_Budget__c, twodcms__Is_Bulletin_Campaign__c, twodcms__Not_Applicable_for_Claim__c, twodcms__Percentage_Complete__c, twodcms__Priority__c, twodcms__Start_Date__c, twodcms__Status__c, twodcms__TotalCampaignClaimTemplateAssociationRec__c, twodcms__TotalCampaignMembersRecords__c, twodcms__TotalMemberTemplateAssociation__c, twodcms__TotalUnsyncedCampaignMemberRecords__c, Deactivation_date__c, Deactivation_reason__c, Handling_Percentage__c, Labor_Percentage__c, Notify_Partners_Stop_Delivery__c, Other_Cost_Percentage__c, Parts_Percentage__c, Reactivation_date__c, Restrict_Sale_Warranty_Until_Campaign__c, Restrict_Transfers_Until_Campaign__c, Supplier_Code__c, is_Auto_Deactivated__c, Is_Created__c, Partner_Approved__c, NHTSA__c, Transport_Canada__c, Replaces__c, Replaces_with__c, Owner_Notify_Date__c, Dealer_Notify_Date__c, External_ID__c, S_W_Campaign__c, Percentage__c, Responsibility_Code__c, Export_Bulletin_Hyperlink__c, IsTemporarySuspensionOrReactivation__c, Method__c, Date_Last_Published__c, IsPermanentDeactivation__c, Bulletin_Hyperlink_English__c, Bulletin_Hyperlink_Spanish__c, Bulletin_Hyperlink_French__c, Link_English__c from twodcms__Service_Campaign__c",
+    "table_name": "SF_SERVICE_CAMPAIGN",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-04-20T11:16:05.734043"
+  },
+  "SF_TWODSRM__SUPPLIER_PAYMENTTERMS__C": {
+    "query": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, twodsrm__Additional_Flat_Amount__c, twodsrm__Cost_Category__c, twodsrm__Cut_Off_Value__c, twodsrm__Exclude_NonOEM_Part__c, twodsrm__Mode_Of_Recovery__c, twodsrm__Modifier_Value__c, twodsrm__Payment_Term_Unique__c, twodsrm__SupplierContract__c, twodsrm__Supplier_Contract__c, twodsrm__Capping_Type__c, twodsrm__Cost_Reference__c, twodsrm__Cost_Sub_Category__c, twodsrm__Cut_Off_Reference__c, twodsrm__Modifier_Type__c, tvnt__Basis__c, Closeout_Reason__c, Last_Claim__c, External_Id__c from twodsrm__Supplier_PaymentTerms__c ",
+    "table_name": "SF_TWODSRM__SUPPLIER_PAYMENTTERMS__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-05T16:51:24.242925"
+  },
+  "\"SF_WARRANTY_COVERAGES\"": {
+    "query": "select Id, Name, External_Id__c, WOD_2__Policy_Definition__c, WOD_2__Warranty_Registration__c,\nWOD_2__Is_Active__c,tvnt__Asset__c,tvnt__Type__c from WOD_2__Warranty_Coverages__c",
+    "table_name": "SF_WARRANTY_COVERAGES",
+    "mode": "Create/Replace",
+    "batch_size": 20000,
+    "saved_at": "2026-05-05T14:36:07.839972"
+  },
+  "SF_SERVICERESOURCE": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, PRSM_Is_Active__c, PRSM_Related_User__c, External_ID__c FROM PRSM_Service_Resource__c\n ",
+    "table_name": "SF_SERVICERESOURCE",
+    "mode": "Create/Replace",
+    "batch_size": 20000,
+    "saved_at": "2026-05-05T16:57:10.993658"
+  },
+  "SF_WARRANTY_COVERAGES": {
+    "query": "select Id, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, WOD_2__Warranty_Registration__c, WOD_2__Policy_Definition__c, WOD_2__Is_Active__c, WOD_2__Maximum_Unit__c, WOD_2__Policy_OffSeason__c, WOD_2__Rollup_Warranty_Date__c, WOD_2__Unit_Type_10__c, WOD_2__Unit_Type_1__c, WOD_2__Unit_Type_2__c, WOD_2__Unit_Type_3__c, WOD_2__Unit_Type_4__c, WOD_2__Unit_Type_5__c, WOD_2__Unit_Type_6__c, WOD_2__Unit_Type_7__c, WOD_2__Unit_Type_8__c, WOD_2__Unit_Type_9__c, WOD_2__Unit_Usage_10__c, WOD_2__Unit_Usage_1__c, WOD_2__Unit_Usage_2__c, WOD_2__Unit_Usage_3__c, WOD_2__Unit_Usage_4__c, WOD_2__Unit_Usage_5__c, WOD_2__Unit_Usage_6__c, WOD_2__Unit_Usage_7__c, WOD_2__Unit_Usage_8__c, WOD_2__Unit_Usage_9__c, WOD_2__Unit_Usage_From_10__c, WOD_2__Unit_Usage_From_1__c, WOD_2__Unit_Usage_From_2__c, WOD_2__Unit_Usage_From_3__c, WOD_2__Unit_Usage_From_4__c, WOD_2__Unit_Usage_From_5__c, WOD_2__Unit_Usage_From_6__c, WOD_2__Unit_Usage_From_7__c, WOD_2__Unit_Usage_From_8__c, WOD_2__Unit_Usage_From_9__c, WOD_2__Warranty_Coverage_Extended_By__c, WOD_2__Warranty_End_Date__c, WOD_2__Warranty_Start_Date__c, WOD_2__Policy_Filter_Condition__c, WOD_2__Policy_Name__c, tvnt__Asset__c, tvnt__Claim_Template__c, tvnt__Inventory__c, tvnt__Maintenance_Claim__c, tvnt__Maintenance_End_Date__c, tvnt__Maintenance_Order__c, tvnt__Maintenance_Start_Date__c, tvnt__Maintenance_Status__c, tvnt__Quote_Line_Item__c, tvnt__SKU_Item__c, tvnt__Service_Contract__c, tvnt__Transferrable__c, tvnt__Type__c, tvnt__Is_Transferrable__c, Actual_Months_Covered__c, External_Id__c, Formatted_Warranty_End_Date__c, Formatted_Warranty_Start_Date__c, Original_End_Date__c, Actual_Mileage_Covered__c, Status__c, System_Group_Name_formula__c, System_Group__c from WOD_2__Warranty_Coverages__c ",
+    "table_name": "SF_WARRANTY_COVERAGES",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-05-21T17:54:50.532447"
+  },
+  "SF_WARRANTY_REGISTRATION": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Account__c, WOD_2__Asset__c, WOD_2__Batch_Log__c, WOD_2__Chatter_Comments__c, WOD_2__Customer__c, WOD_2__De_Registration_Comments__c, WOD_2__De_Registration_Date__c, WOD_2__De_Registration_Reason__c, WOD_2__External_ID__c, WOD_2__Install_Date__c, WOD_2__Inventory__c, WOD_2__Product__c, WOD_2__Registration_Comments__c, WOD_2__Registration_Date__c, WOD_2__Registration_Type__c, WOD_2__Status__c, WOD_2__Units_Usage__c, WOD_2__Usage_Type__c, WOD_2__Warranty_Product__c, WOD_2__Maximum_Unit__c, WOD_2__Warranty_End_Date__c, WOD_2__Warranty_Start_Date__c, WOD_2__Customer_Billing_City__c, WOD_2__Customer_Billing_Country__c, WOD_2__Customer_Billing_State__c, WOD_2__Customer_Billing_Street__c, WOD_2__Customer_Billing_Zipcode__c, WOD_2__Servicing_Dealer_Billing_Country__c, WOD_2__Servicing_Dealer_Billing_State__c, WOD_2__Servicing_Dealer_Billing_Street__c, WOD_2__Servicing_Dealer_Billing_Zipcode__c, WOD_2__Servicing_Dealer_Billing_city__c, tvnt__Contract_SKU__c, tvnt__Contract_Transferrable__c, tvnt__Service_Contract__c, tvnt__Maintenance_End_Date__c, tvnt__Maintenance_Start_Date__c, Do_Not_Visible_On_UI__c, Approval_Comment__c, Build_Date__c, Customer_Unit_Number__c, Has_No_Coverage__c, IsManualReview__c, Is_Customer_Changed__c, Machine_age_Machine_age_during_registrat__c, Ordering_Customer_Billing_City__c, Ordering_Customer_Billing_Country__c, Ordering_Customer_Billing_Street__c, Ordering_Customer_Billing_Zipcode__c, Ordering_Customer__c, Ordering_Dealer_Billing_City__c, Ordering_Dealer_Billing_Country__c, Ordering_Dealer_Billing_State__c, Ordering_Dealer_Billing_Street__c, Ordering_Dealer_Billing_Zipcode__c, Ordering_Dealer__c, PRSM_BuildDate__c, PRSM_External_Comments__c, Pkg_Type__c, Registered_Customer_Account_Number__c, Registered_Dealer_Code__c, Registered_Domicile__c, Registered_Vocation__c, Registered_Vocationcode__c, Unit_Of_Measure__c, VIN__c, isSubmittedOnlyDueToPendingCustomer__c, Needs_Reduced_Coverage__c, PRSM_BuildDateInServiceDate__c, End_Date_Reduction_Days_For_Demo__c, PRSM_Is_RVBB_Registration__c FROM WOD_2__Warranty_Registration__c ",
+    "table_name": "SF_WARRANTY_REGISTRATION",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-06-22T10:21:21.477603"
+  },
+  "SF_WOD_2__CARRIER__C": {
+    "query": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, WOD_2__Business_Units__c FROM WOD_2__Carrier__c ",
+    "table_name": "SF_WOD_2_CARRIER_C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-06-23T15:54:46.754768"
+  },
+  "SF_DUMMAY_": {
+    "query": "SELECT Id, Name, ProductCode, IsActive, Family, Description, CreatedDate FROM dummay",
+    "table_name": "SF_DUMMAY",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-07-15T19:48:22.238924"
+  },
+  "SF_TVNT__TCOREGROUP__C": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, tvnt__Business_Units__c, tvnt__Description__c, tvnt__JSON_Data__c, tvnt__Object_Name__c, External_Id__c, Sub_Type__c, Is_DVCM__c FROM tvnt__TCoreGroup__c ",
+    "table_name": "SF_TVNT__TCOREGROUP__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-07-29T13:33:34.975510"
+  },
+  "SF_TWODSRM__SUPPLIER_PART__C": {
+    "query": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, twodsrm__Associated_Supplier_Part__c, twodsrm__Is_Active__c, twodsrm__OEM_Part_Number_P2__c, twodsrm__OEM_Part_Number__c, twodsrm__SupplierName__c, twodsrm__Supplier_Part_Description__c, twodsrm__Supplier_Part_Number__c, PRSM_Plant_Location_PTSI__c, Product__c, Purchasing_Org__c, Source__c, SupplierPart_External_ID__c, Supplier_Effective_From_Date__c, Supplier_Effective_To_Date__c, Is_Supplier_Active__c, Supplier_Code__c from twodsrm__Supplier_Part__c ",
+    "table_name": "SF_TWODSRM__SUPPLIER_PART__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-07-31T12:58:27.534520"
+  },
+  "SF_WOD_2__WARRANTY_PRODUCT_PRICEBOOK__C": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Approver__c, WOD_2__Price__c, WOD_2__Product__c, WOD_2__Unit_Price__c, WOD_2__Valid_From__c, WOD_2__Valid_Until__c, WOD_2__Warranty_Product__c, twodsrm__Supplier_Part__c, Warranty_Product_PriceBook_Ext_ID__c, Dealer__c, Dealer_Code__c, Dealer_Country__c, quantity__c from WOD_2__Warranty_Product_Pricebook__c ",
+    "table_name": "SF_WOD_2__WARRANTY_PRODUCT_PRICEBOOK__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-04T10:41:39.813494"
+  },
+  "SF_TVNT__MODIFIER__C": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, tvnt__Action__c, tvnt__Active_From__c, tvnt__Active_Until__c, tvnt__Capping_Type__c, tvnt__Cut_Off_Value__c, tvnt__ExpressionJsonField__c, tvnt__Modifier_Amount_Formula__c, tvnt__Modifier_Entity__c, tvnt__Priority__c, tvnt__Type__c, tvnt__Value__c, tvnt__Modifier_Entity_Sub_Type__c, Cost_Category__c, Modifier_Ext_ID__c, Payment_Definition__c FROM tvnt__Modifier__c ",
+    "table_name": "SF_TVNT__MODIFIER__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-05T11:07:35.543110"
+  },
+  "SF_WOD_2__FAULTCODE_MAPPER__C": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Code__c, WOD_2__Fault_Code__c, WOD_2__Fault_Location__c, WOD_2__Group__c, WOD_2__Product__c, WOD_2__Status__c, WOD_2__Warranty_Product__c, Supplier__c, Associated_Code_Description__c, Code_Description__c, Component_Description__c, Description__c, Effective_From_Date__c, Effective_To_Date__c, Fault_Code_Type__c, Inclusion_Exclusion__c, Part_Category__c, Product_Description__c, System_Group__c, Active_From__c, Active_Until__c, Associated_Code_Info__c, Code_Info__c, SEAG_Code__c, System_Group_Description__c FROM WOD_2__FaultCode_Mapper__c ",
+    "table_name": "SF_WOD_2__FAULTCODE_MAPPER__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-05T11:21:42.319828"
+  },
+  "SF_WOD_2__WAREHOUSE__C": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Address_Line_1__c, WOD_2__Address_Line_2__c, WOD_2__Address_Line_3__c, WOD_2__Address_Line_4__c, WOD_2__Business_Units__c, WOD_2__City__c, WOD_2__Country__c, WOD_2__County__c, WOD_2__Dealer_Account__c, WOD_2__Email__c, WOD_2__Fax__c, WOD_2__IsInactive__c, WOD_2__Phone__c, WOD_2__State_Province__c, WOD_2__Zip_Code__c, External_Id__c FROM WOD_2__Warehouse__c ",
+    "table_name": "SF_WOD_2__WAREHOUSE__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-05T11:46:48.146928"
+  },
+  "SF_TVNT__TCOREGROUP_MEMBER__C": {
+    "query": "SELECT Id, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, tvnt__TCoreGroup__c, tvnt__Account__c, tvnt__Record_Id__c, Coverages__c, Data_Book_Code__c, External_Id__c, Product__c, Service_Campaign__c, Warranty_Code__c, PRSM_Price_Book__c FROM tvnt__TCoreGroup_Member__c ",
+    "table_name": "SF_TVNT__TCOREGROUP_MEMBER__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-05T12:41:46.958928"
+  },
+  "SF_TWODCMS__SERVICE_CAMPAIGN__C": {
+    "query": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, twodcms__Applicable_for_all__c, twodcms__Business_Category_Configuration__c, twodcms__Business_Units__c, twodcms__Campaign_Class__c, twodcms__Campaign_Description__c, twodcms__Campaign_Type__c, twodcms__Consumed_Budget__c, twodcms__End_Date__c, twodcms__Estimated_Budget__c, twodcms__Is_Bulletin_Campaign__c, twodcms__Not_Applicable_for_Claim__c, twodcms__Percentage_Complete__c, twodcms__Priority__c, twodcms__Start_Date__c, twodcms__Status__c, twodcms__TotalCampaignClaimTemplateAssociationRec__c, twodcms__TotalCampaignMembersRecords__c, twodcms__TotalMemberTemplateAssociation__c, twodcms__TotalUnsyncedCampaignMemberRecords__c, Bulletin_Hyperlink_English__c, Bulletin_Hyperlink_French__c, Bulletin_Hyperlink_Spanish__c, Date_Last_Published__c, Deactivation_date__c, Deactivation_reason__c, Dealer_Notify_Date__c, External_ID__c, Handling_Percentage__c, Is_Created__c, Labor_Percentage__c, Method__c, NHTSA__c, Notify_Partners_Stop_Delivery__c, Other_Cost_Percentage__c, Owner_Notify_Date__c, Partner_Approved__c, Parts_Percentage__c, Percentage__c, Reactivation_date__c, Replaces__c, Replaces_with__c, Responsibility_Code__c, Restrict_Sale_Warranty_Until_Campaign__c, Restrict_Transfers_Until_Campaign__c, S_W_Campaign__c, Supplier_Code__c, Transport_Canada__c, is_Auto_Deactivated__c, Link_English__c, Export_Bulletin_Hyperlink__c, IsPermanentDeactivation__c, IsTemporarySuspensionOrReactivation__c, Campaign_Code_Group_Code__c from twodcms__Service_Campaign__c ",
+    "table_name": "SF_TWODCMS__SERVICE_CAMPAIGN__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-05T13:38:14.955685"
+  },
+  "sf_wod_2__payment_definitions__c": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Business_Units__c, WOD_2__Cost_Categories__c, WOD_2__Is_Default__c, WOD_2__Status__c, CostReference__c, Cost_Sub_category__c, DM_External__c, Payment_Definition_Code__c FROM WOD_2__Payment_Definitions__c ",
+    "table_name": "SF_WOD_2__PAYMENT_DEFINITIONS__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-06T10:08:15.926091"
+  },
+  "sf_wod_2__payment_modifiers__c": {
+    "query": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Action__c, WOD_2__Active_From__c, WOD_2__Active_Until__c, WOD_2__Business_Units__c, WOD_2__Capping_Type__c, WOD_2__Cut_Off_Value__c, WOD_2__Dealer_Group__c, WOD_2__Dealer__c, WOD_2__PartNumber_P2__c, WOD_2__Part_Group__c, WOD_2__Part__c, WOD_2__Payment_Configuration__c, WOD_2__Payment_Definition_Item__c, WOD_2__Payment_Definition__c, WOD_2__Type__c, WOD_2__Value__c, WOD_2__Priority__c, Claim_Expression__c, Cost_Subcategory__c, DM_External__c, Labor_Type__c, Labor_Code_Type__c from WOD_2__Payment_Modifiers__c ",
+    "table_name": "SF_WOD_2__PAYMENT_MODIFIERS__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-06T12:33:31.493276"
+  },
+  "sf_wod_2__policy_definition__c": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Active_From__c, WOD_2__Active_Until__c, WOD_2__Business_Units__c, WOD_2__Category_To_Apply_Degradation__c, WOD_2__Coverage_Based_On__c, WOD_2__Days_Covered_From__c, WOD_2__Days_Covered__c, WOD_2__Default_Policy_Definition__c, WOD_2__Description__c, WOD_2__Exclusion__c, WOD_2__Expression__c, WOD_2__Extended_Policy_Cost__c, WOD_2__Inclusion__c, WOD_2__Is_Policy_Optional__c, WOD_2__Months_Covered_From__c, WOD_2__Months_Covered__c, WOD_2__Payment_Definition__c, WOD_2__Policy_Filter_Condition__c, WOD_2__Pricebook_Type__c, WOD_2__Priority__c, WOD_2__Status__c, WOD_2__Sub_Type__c, WOD_2__Terms_Condition__c, WOD_2__Transfer_Fee__c, WOD_2__Transferable_Month__c, WOD_2__Transferable__c, WOD_2__Type__c, PRSM_DataBookCode__c, PRSM_Policy_Name__c, ProductType__c, ResponsibilityCodeType__c, ResponsibilityCode__c, ClaimDeductible__c, Coverage_Source__c, Description_ES__c, External_Id__c, Has_No_Coverage__c, Hours__c, Internal_Comments__c, MaxClaimAmount__c, PRSM_Base_Price__c, PRSM_Coverage_Type__c, PRSM_DB_Effective_Date__c, PRSM_Data_Book_Code__c, PRSM_Dealer_Net__c, PRSM_Deferred_Period__c, PRSM_Duration_Type__c, PRSM_Duration_Value__c, PRSM_End_Duration_Type__c, PRSM_End_Duration_Value__c, PRSM_Extended_Coverage_Option_Type__c, PRSM_Order_Received_Date__c, PRSM_Price_Effective_Date__c, PRSM_Service_Product_Type__c, PRSM_Start_Duration_Type__c, PRSM_Start_Duration_Value__c, PRSM_Suggested_Retail__c, PRSM_Unit_Type__c, PRSM_Usage_UOM_2__c, PRSM_Usage_Units_2__c, PolicyCode__c, PolicyFormula__c, PolicyOffsetDays__c, PolicyOptionType__c, Responsibility_Code_Type__c, Responsible_BU__c, Series__c, System_Group__c, Throughput_kWh__c, Upper_Threshold_Amount__c, UsageType__c, UsageValue__c, Claim_Expression__c, Distance_in_kms__c, PRSM_End_Duration__c, PRSM_One_Stop_Supplier_Product_Type__c, PRSM_Start_Duration__c, System_Group_Name_formula__c, PRSM_Responsible_Sub_BU__c, Aged_Blueprint__c, Towing_RoadSide__c, PRSM_Sub_BU_From_RC__c, PRSM_Deductible_Type__c, Towing_Roadside_Cutoff__c, PRSM_Claim_Deductible__c, PRSM_Cool_Off_Period_Days__c, PRSM_RR_Type__c FROM WOD_2__Policy_Definition__c ",
+    "table_name": "SF_WOD_2__POLICY_DEFINITION__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-06T12:52:00.837597"
+  },
+  "sf_wod_2__technician__c": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Customer_Account__c, WOD_2__End_Date__c, WOD_2__Location_Code__c, WOD_2__Start_Date__c, WOD_2__Technician_ID__c, Active__c, ExtID_Integration__c, External_Id__c FROM WOD_2__Technician__c ",
+    "table_name": "SF_WOD_2__TECHNICIAN__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-10T09:30:54.010413"
+  },
+  "SF_PRSM_SERVICE_TERRITORY__C": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, PRSM_Is_Active__c, PRSM_Parent_Territory__c, PRSM_Territory_Type__c, External_ID__c, PRSM_Territory_Code__c FROM PRSM_Service_Territory__c ",
+    "table_name": "SF_PRSM_SERVICE_TERRITORY__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-10T09:38:46.109396"
+  },
+  "SF_PRSM_Premium_Labor_Rate__c": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, Applicable_Base_Rate_Types__c, Begin_Date__c, Dealer__c, End_Date__c, Premium_Labor_Rate__c, Premium_Rate_Type__c FROM PRSM_Premium_Labor_Rate__c ",
+    "table_name": "SF_PRSM_PREMIUM_LABOR_RATE__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-11T16:42:27.173736"
+  },
+  "SF_PRSM_PREMIUM_LABOR_RATE__C": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, Applicable_Base_Rate_Types__c, Begin_Date__c, Dealer__c, End_Date__c, Premium_Labor_Rate__c, Premium_Rate_Type__c, External_Id__c FROM PRSM_Premium_Labor_Rate__c ",
+    "table_name": "SF_PRSM_PREMIUM_LABOR_RATE__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-12T10:02:43.649036"
+  },
+  "SF_WOD_2__Warranty_Coverages__c": {
+    "query": "SELECT Id, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, WOD_2__Warranty_Registration__c, WOD_2__Policy_Definition__c, WOD_2__Is_Active__c, WOD_2__Maximum_Unit__c, WOD_2__Policy_OffSeason__c, WOD_2__Rollup_Warranty_Date__c, WOD_2__Unit_Type_10__c, WOD_2__Unit_Type_1__c, WOD_2__Unit_Type_2__c, WOD_2__Unit_Type_3__c, WOD_2__Unit_Type_4__c, WOD_2__Unit_Type_5__c, WOD_2__Unit_Type_6__c, WOD_2__Unit_Type_7__c, WOD_2__Unit_Type_8__c, WOD_2__Unit_Type_9__c, WOD_2__Unit_Usage_10__c, WOD_2__Unit_Usage_1__c, WOD_2__Unit_Usage_2__c, WOD_2__Unit_Usage_3__c, WOD_2__Unit_Usage_4__c, WOD_2__Unit_Usage_5__c, WOD_2__Unit_Usage_6__c, WOD_2__Unit_Usage_7__c, WOD_2__Unit_Usage_8__c, WOD_2__Unit_Usage_9__c, WOD_2__Unit_Usage_From_10__c, WOD_2__Unit_Usage_From_1__c, WOD_2__Unit_Usage_From_2__c, WOD_2__Unit_Usage_From_3__c, WOD_2__Unit_Usage_From_4__c, WOD_2__Unit_Usage_From_5__c, WOD_2__Unit_Usage_From_6__c, WOD_2__Unit_Usage_From_7__c, WOD_2__Unit_Usage_From_8__c, WOD_2__Unit_Usage_From_9__c, WOD_2__Warranty_Coverage_Extended_By__c, WOD_2__Warranty_End_Date__c, WOD_2__Warranty_Start_Date__c, WOD_2__Policy_Filter_Condition__c, WOD_2__Policy_Name__c, Actual_Months_Covered__c, External_Id__c, Formatted_Warranty_End_Date__c, Formatted_Warranty_Start_Date__c, Original_End_Date__c, PRSM_Cool_Off_Days__c, PRSM_Cool_Off_End_Date__c, PRSM_Cool_Off_Status__c, PRSM_Coverage_Activation_Date__c, PRSM_Excluded_From_RR__c, PRSM_LOL_Cumulative_Total__c, PRSM_LOL_Last_Calculated__c, PRSM_LOL_Limit_of_Liability__c, PRSM_LOL_Remaining_Limit__c, PRSM_LOL_Status__c, PRSM_RR_Deferred_Period__c, Actual_Mileage_Covered__c, Status__c, System_Group_Name_formula__c, System_Group__c, PRSM_Cov_Max_Duration_Months__c, PRSM_Cov_Max_Usage_Unit__c, PRSM_Cov_Max_Usage_Value__c, tvnt__Asset__c, tvnt__Claim_Template__c, tvnt__Inventory__c, tvnt__Maintenance_Claim__c, tvnt__Maintenance_End_Date__c, tvnt__Maintenance_Order__c, tvnt__Maintenance_Start_Date__c, tvnt__Maintenance_Status__c, tvnt__Quote_Line_Item__c, tvnt__SKU_Item__c, tvnt__Service_Contract__c, tvnt__Transferrable__c, tvnt__Type__c, tvnt__Is_Transferrable__c from WOD_2__Warranty_Coverages__c ",
+    "table_name": "SF_WOD_2__WARRANTY_COVERAGES__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-25T12:47:05.449548"
+  },
+  "SF_TVNT__TCORE_CONDITION__C": {
+    "query": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, tvnt__Composite_Key__c, tvnt__Criteria_Value_Text__c, tvnt__Criteria_Value__c, tvnt__Delimiter__c, tvnt__Display_Format__c, tvnt__Field_Path_Label__c, tvnt__Field_Path__c, tvnt__Field_Type__c, tvnt__IsNullBehaviour__c, tvnt__Object_Name__c, tvnt__Operator__c, tvnt__Rule_Object_Name__c, tvnt__Value_Type__c, External_Id__c from tvnt__TCore_Condition__c ",
+    "table_name": "SF_TVNT__TCORE_CONDITION__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-08-25T19:37:28.120635"
+  },
+  "SF_PRSM_Financial_Code_Matrix__c": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, RecordTypeId, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, Account_Type__c, Company_Code__c, Dealer_Currency_Country__c, Free_Of_Charge__c, GL_Account__c, Payment_Type__c, Product_Make__c, Reman_Glider__c, SAP_Company_Code__c, SAP_Location_Code__c, Service_Category__c, Sub_Business_Unit__c, PRSM_Account_Code__c, PRSM_Contract_Category__c, PRSM_Dealer_Domicile_Country__c, PRSM_EW_Contract_Cancellation__c, PRSM_Item_Category__c, PRSM_Material_Id__c, PRSM_Plant_Code__c, PRSM_Responsibility_Code__c, PRSM_Service_Product_Type__c, Sub_Claim_Type__c, Product_Type__c, PRSM_Contract_Cost_Center__c, External_Id__c, Misc_Company_Code__c, Miscellaneous_Account_Type__c, Plant_Code__c, Product_Make_Name__c FROM PRSM_Financial_Code_Matrix__c ",
+    "table_name": "SF_PRSM_FINANCIAL_CODE_MATRIX__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-09-09T12:05:19.018404"
+  },
+  "SF_WOD_2__Rates_Details__c": {
+    "query": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastViewedDate, LastReferencedDate, WOD_2__Active_From__c, WOD_2__Active_Until__c, WOD_2__Approver__c, WOD_2__Dealer__c, WOD_2__Freight_Rate__c, WOD_2__Handling_Rate__c, WOD_2__LaborRate__c, WOD_2__Labor_Rate__c, WOD_2__Landing_Cost_Max_Cap_Amount__c, WOD_2__Landing_Rate_Percentage__c, WOD_2__Max_Cap_Amount__c, WOD_2__Meals_Rate__c, WOD_2__Miscellaneous_Rate__c, WOD_2__Priority__c, WOD_2__Rate_Type__c, WOD_2__Standard_Rate__c, WOD_2__Status__c, WOD_2__TravelByDistanceRate__c, WOD_2__TravelByHoursRate__c, WOD_2__Travel_By_Distance_Rate__c, WOD_2__Travel_By_Hours_Rate__c, WOD_2__Rate_Sub_Type__c, twodsrm__Handling_Max_Cap__c, twodsrm__Handling_Rate__c, twodsrm__Landed_Max_Cap__c, twodsrm__Landed_Rate__c, twodsrm__Supplier__c, Active__c, Customer__c, External_Id__c, Labor_Type__c, Notes__c, PRSM_Total_Labor_Rate__c, Premium_Rate__c, Status__c, Travel_Distance_Rate__c, DVCM_Category__c, PRSM_Labor_Rate__c  from WOD_2__Rates_Details__c ",
+    "table_name": "SF_WOD_2__RATES_DETAILS__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-09-11T13:07:54.884772"
+  },
+  "SF_WOD_2__Other_Cost__c": {
+    "query": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, WOD_2__Claim__c, WOD_2__Comments__c, WOD_2__Cost_Category_Type__c, WOD_2__Dealer_Contribution__c, WOD_2__Is_Copied_From_Template__c, WOD_2__Is_Copied_From_Work_Package__c, WOD_2__Is_Copy_To_Claim__c, WOD_2__OEM_Contribution__c, WOD_2__Parent_Reference_Id__c, WOD_2__Rate_PerUnit__c, WOD_2__Rate_Per_Unit__c, WOD_2__Total_Cost__c, WOD_2__Travel_From_Address__c, WOD_2__Travel_To_Address__c, WOD_2__UnitsUsage__c, WOD_2__Units_Usage__c, Distance_in_Miles__c, Inclusion_Type__c, Travel_Distance_Unit__c, Total_Cost__c, Coverage_Split__c, External_Id__c, PRSM_Description__c, PRSM_Invoice_Date__c, PRSM_Invoice_Number__c, PRSM_Total_Distance_Charged_Claimed__c, PRSM_Total_Distance_Charged_Processed__c, PRSM_Total_Distance_Factor__c, PRSM_Total_Distance_Processed__c, Approved_Amount__c, Approved_Quantity__c, Other_Cost_Unique_Key__c, Unique_Other_Cost_Number__c, PRSM_Total_Cost__c, Other_Cost_Name__c from WOD_2__Other_Cost__c",
+    "table_name": "SF_WOD_2__OTHER_COST__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-09-16T13:46:05.802005"
+  },
+  "sf_PRSM_AccountAssociation__c": {
+    "query": "SELECT Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, Customer_Account__c, Dealer_Account__c, PRSM_Customer_Account_Number__c, PRSM_Dealer_Account_Number__c FROM PRSM_AccountAssociation__c ",
+    "table_name": "SF_PRSM_ACCOUNTASSOCIATION__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-09-18T14:58:18.110172"
+  },
+  "SF_PRSM_DTR_Certification__c": {
+    "query": "select Id, OwnerId, IsDeleted, Name, CurrencyIsoCode, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, Acquisition_Type__c, Certification_Date__c, Current_Odometer_Reading__c, External_Id__c, GVWR__c, Latest_pending_certificate__c, New_Active_Certification__c, New_DPF_Serial_Number_2__c, New_DPF_Serial_Number__c, OMP_Participation_Trade__c, PRSM_CertifyingSalesOutlet_Technician__c, Reman_DPF_Comments__c, Reman_DPF_Installation_Date__c, Reman_DPF_Installed__c, Reman_DPF_RO_Number__c, Reman_Dealer_Location__c, Removed_DPF_Serial_Number_2__c, Removed_DPF_Serial_Number__c, Service_Comments__c, Service_Completion_Date__c, Service_Dealer_Location__c, Service_RO_Number__c, Service_Requirement_Completed__c, Source__c, Status__c, Submitting_Location__c, Technician__c, Unit_of_Measure__c, VIN__c, Active__c, DPF_Installed_by_Dealer_User__c, Expiry_Date__c, Product_Make__c, Model__c, Product_Base_Model__c FROM PRSM_DTR_Certification__c ",
+    "table_name": "SF_PRSM_DTR_CERTIFICATION__C",
+    "mode": "Create/Replace",
+    "batch_size": 10000,
+    "saved_at": "2026-09-22T12:42:57.156256"
+  }
+}
